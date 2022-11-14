@@ -1,0 +1,360 @@
+* {
+  user-select: none;
+  box-sizing: border-box;
+}
+
+#base {
+  transform: rotateX(-20deg) rotateY(-45deg);
+  width: 160px;
+  height: 320px;
+  margin: 45px auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50% 0;
+  /* background-color: red; */
+}
+
+#cabeza,
+#cuerpo,
+#brazo-derecho,
+#brazo-izquierdo,
+#pierna-derecha,
+#pierna-izquierda {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.frente,
+.detras,
+.arriba,
+.abajo,
+.izquierda,
+.derecha {
+  position: absolute;
+}
+
+.frente,
+.detras {
+  background: rgb(97, 97, 97);
+}
+
+.arriba {
+  background: rgb(110, 110, 110);
+}
+
+.abajo {
+  background: rgb(46, 46, 46);
+}
+
+.izquierda,
+.derecha {
+  background: rgb(71, 71, 71);
+}
+
+#cabeza {
+  animation: moverCabeza 1s linear infinite;
+  width: 80px;
+  height: 80px;
+  transform-origin: 100% 50% 10px;
+  transform: translateX(40px) translateZ(40px);
+  z-index: 3;
+}
+#cabeza .frente,
+#cabeza .arriba,
+#cabeza .izquierda,
+#cabeza .derecha,
+#cabeza .detras,
+#cabeza .abajo {
+  width: 80px;
+  height: 80px;
+}
+#cabeza .frente {
+  text-align: center;
+}
+#cabeza .arriba {
+  transform-origin: center bottom;
+  transform: rotateX(90deg) translateZ(80px);
+}
+#cabeza .abajo {
+  transform-origin: center top;
+  transform: translateY(80px) rotateX(-90deg);
+}
+#cabeza .izquierda {
+  transform-origin: center right;
+  transform: translateX(-80px) rotateY(-90deg);
+}
+#cabeza .derecha {
+  transform-origin: center left;
+  transform: translateX(80px) rotateY(90deg);
+}
+#cabeza .detras {
+  transform: translateZ(-80px) rotateY(180deg);
+}
+
+#cuerpo {
+  width: 80px;
+  height: 120px;
+  transform: translateX(40px) translateY(80px) translateZ(20px);
+}
+#cuerpo .frente,
+#cuerpo .detras {
+  width: 80px;
+  height: 120px;
+}
+#cuerpo .arriba,
+#cuerpo .abajo {
+  width: 80px;
+  height: 40px;
+}
+#cuerpo .izquierda,
+#cuerpo .derecha {
+  width: 40px;
+  height: 120px;
+}
+#cuerpo .arriba {
+  transform-origin: center bottom;
+  transform: rotateX(90deg) translateZ(40px);
+}
+#cuerpo .abajo {
+  transform-origin: center top;
+  transform: translateY(120px) rotateX(-90deg);
+}
+#cuerpo .derecha {
+  transform-origin: center right;
+  transform: translateX(-40px) rotateY(-90deg);
+}
+#cuerpo .izquierda {
+  transform-origin: center left;
+  transform: translateX(80px) rotateY(90deg);
+}
+#cuerpo .detras {
+  transform: translateZ(-40px) rotateY(180deg);
+}
+
+#brazo-izquierdo {
+  transform: translateX(120px) translateY(80px) translateZ(20px);
+  animation: girarBrazoIzquierdo 1s linear infinite;
+  transform-origin: 100% 75% 0;
+}
+
+#brazo-derecho {
+  transform: translateY(80px) translateZ(20px);
+  animation: girarBrazoDerecho 1s linear infinite;
+  transform-origin: 0% 75% 0;
+}
+
+#pierna-izquierda {
+  transform: translateX(80px) translateY(40px) translateZ(20px);
+  animation: girarPiernaIzquierda 1s linear infinite;
+  transform-origin: 100% 50% 0;
+  top: 160px;
+}
+
+#pierna-derecha {
+  transform: translateX(40px) translateY(40px) translateZ(20px);
+  animation: girarPiernaDerecha 1s linear infinite;
+  transform-origin: 0% 50% 0;
+  top: 160px;
+}
+
+#brazo-izquierdo,
+#brazo-derecho,
+#pierna-izquierda,
+#pierna-derecha {
+  width: 40px;
+  height: 120px;
+}
+
+#brazo-izquierdo .frente,
+#brazo-izquierdo .detras,
+#brazo-izquierdo .izquierda,
+#brazo-izquierdo .derecha,
+#brazo-derecho .frente,
+#brazo-derecho .detras,
+#brazo-derecho .izquierda,
+#brazo-derecho .derecha,
+#pierna-izquierda .frente,
+#pierna-izquierda .detras,
+#pierna-izquierda .izquierda,
+#pierna-izquierda .derecha,
+#pierna-derecha .frente,
+#pierna-derecha .detras,
+#pierna-derecha .izquierda,
+#pierna-derecha .derecha {
+  width: 40px;
+  height: 120px;
+}
+#brazo-izquierdo .arriba,
+#brazo-izquierdo .abajo,
+#brazo-derecho .arriba,
+#brazo-derecho .abajo,
+#pierna-izquierda .arriba,
+#pierna-izquierda .abajo,
+#pierna-derecha .arriba,
+#pierna-derecha .abajo {
+  width: 40px;
+  height: 40px;
+}
+#brazo-izquierdo .arriba,
+#brazo-derecho .arriba,
+#pierna-izquierda .arriba,
+#pierna-derecha .arriba {
+  transform-origin: center bottom;
+  transform: rotateX(90deg) translateZ(40px);
+}
+#brazo-izquierdo .abajo,
+#brazo-derecho .abajo,
+#pierna-izquierda .abajo,
+#pierna-derecha .abajo {
+  transform-origin: center top;
+  transform: translateY(120px) rotateX(-90deg);
+}
+#brazo-izquierdo .izquierda,
+#brazo-derecho .izquierda,
+#pierna-izquierda .izquierda,
+#pierna-derecha .izquierda {
+  transform-origin: center right;
+  transform: translateX(-40px) rotateY(-90deg);
+}
+#brazo-izquierdo .derecha,
+#brazo-derecho .derecha,
+#pierna-izquierda .derecha,
+#pierna-derecha .derecha {
+  transform-origin: center left;
+  transform: translateX(40px) rotateY(90deg);
+}
+#brazo-izquierdo .detras,
+#brazo-derecho .detras,
+#pierna-izquierda .detras,
+#pierna-derecha .detras {
+  transform: translateZ(-40px) rotateY(180deg);
+}
+
+@keyframes moverCabeza {
+  0% {
+    transform: translateX(40px) translateZ(40px);
+  }
+  50% {
+    transform: translateX(40px) translateZ(50px) rotateX(-5deg);
+  }
+  100% {
+    transform: translateX(40px) translateZ(40px);
+  }
+}
+
+@keyframes girarBrazoIzquierdo {
+  0% {
+    transform: rotateX(-25deg) translateX(120px) translateY(80px)
+      translateZ(20px);
+  }
+  50% {
+    transform: rotateX(25deg) translateX(120px) translateY(80px)
+      translateZ(20px);
+  }
+  100% {
+    transform: rotateX(-25deg) translateX(120px) translateY(80px)
+      translateZ(20px);
+  }
+}
+@keyframes girarBrazoDerecho {
+  0% {
+    transform: rotateX(25deg) translateY(80px) translateZ(20px);
+  }
+  50% {
+    transform: rotateX(-25deg) translateY(80px) translateZ(20px);
+  }
+  100% {
+    transform: rotateX(25deg) translateY(80px) translateZ(20px);
+  }
+}
+@keyframes girarPiernaIzquierda {
+  0% {
+    transform: rotateX(25deg) translateX(80px) translateY(40px)
+      translateZ(20px);
+  }
+  50% {
+    transform: rotateX(-25deg) translateX(80px) translateY(40px)
+      translateZ(20px);
+  }
+  100% {
+    transform: rotateX(25deg) translateX(80px) translateY(40px)
+      translateZ(20px);
+  }
+}
+@keyframes girarPiernaDerecha {
+  0% {
+    transform: rotateX(-25deg) translateX(40px) translateY(40px)
+      translateZ(20px);
+  }
+  50% {
+    transform: rotateX(25deg) translateX(40px) translateY(40px)
+      translateZ(20px);
+  }
+  100% {
+    transform: rotateX(-25deg) translateX(40px) translateY(40px)
+      translateZ(20px);
+  }
+}
+
+/* COLOREADO//////////////////////////// */
+:root {
+  --celeste: #59c0d5;
+  --azul: #332a78;
+  --piel: #e8bdac;
+  --cafe: #54361b;
+}
+/* CABEZA */
+#cabeza .arriba {
+  background-color: #54361b;
+}
+#cabeza .detras {
+  background: linear-gradient(#54361b 80%, #e8bdac 80%);
+}
+#cabeza .abajo {
+  background-color: #e8bdac;
+}
+
+#cabeza .frente {
+  background: linear-gradient(#54361b 30%, #e8bdac 30%);
+}
+
+#cabeza .derecha {
+  background: linear-gradient(-154deg, #54361b 53%, #e8bdac 53%);
+}
+
+#cabeza .izquierda {
+  background: linear-gradient(154deg, #54361b 53%, #e8bdac 53%);
+}
+
+/* CUERPO */
+#cuerpo div {
+  background-color: #59c0d5;
+}
+
+/* BRAZOS */
+#brazo-derecho .frente,
+#brazo-derecho .detras,
+#brazo-derecho .izquierda,
+#brazo-derecho .derecha,
+#brazo-izquierdo .frente,
+#brazo-izquierdo .detras,
+#brazo-izquierdo .izquierda,
+#brazo-izquierdo .derecha {
+  background: linear-gradient(#59c0d5 40%, #e8bdac 40%);
+}
+
+#brazo-derecho .arriba,
+#brazo-izquierdo .arriba {
+  background-color: #59c0d5;
+}
+
+#brazo-derecho .abajo,
+#brazo-izquierdo .abajo {
+  background-color: #e8bdac;
+}
+
+/* PIERNAS */
+#pierna-derecha div,
+#pierna-izquierda div {
+  background-color: #332a78;
+}
