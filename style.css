@@ -1,3 +1,8 @@
+* {
+  user-select: none;
+  font-family: sans-serif;
+}
+
 #base {
   transform: rotateX(-20deg) rotateY(-45deg);
   width: 160px;
@@ -476,7 +481,6 @@
   color: white;
   padding: 15px;
   border-radius: 5px;
-  font-family: sans-serif;
   width: max-content;
   margin: auto;
   padding-left: 40px;
