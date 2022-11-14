@@ -306,9 +306,9 @@
   --azul-medio: #332a78;
   --azul-oscuro: #2b2464;
   --azul-mas-oscuro: #231e50;
-  --piel-clara: #e8bdac;
-  --piel-media: #c49b8b;
-  --piel-oscura: #ab897b;
+  --piel-claro: #e8bdac;
+  --piel-medio: #c49b8b;
+  --piel-oscuro: #ab897b;
   --cafe-claro: #54361b;
   --cafe-medio: #402a16;
   --cafe-oscuro: #372413;
@@ -398,5 +398,5 @@
 
 #pierna-derecha .arriba,
 #pierna-izquierda .arriba {
-  background-color: #2f2670;
+  background-color: #2b2365;
 }
