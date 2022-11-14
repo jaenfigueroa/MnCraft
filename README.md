@@ -1,7 +1,7 @@
 ### Preview
 
 <div >
-  <img src="./assets/preview.gif" align="center" style="width: 70%" />
+  <img src="https://imgur.com/9300UOL" align="center" style="width: 70%" />
 </div>
 
 ### Website
