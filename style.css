@@ -545,6 +545,8 @@ body {
 
 /* ///////////////////////////////////////////////////////////// */
 /* DETALLES EXTRAS: OJOS,NARIZ, ETC ////////////////////////////*/
+
+/* OJOS */
 #cabeza .frente::after {
   content: '';
   width: 60px;
@@ -562,6 +564,7 @@ body {
   left: 10px;
 }
 
+/* BIGOTE */
 #cabeza .frente::before {
   content: '';
   position: absolute;
@@ -577,6 +580,7 @@ body {
   height: 100%;
 }
 
+/* NARIZ Y BOCA */
 #cabeza .frente div::after {
   content: '';
   position: absolute;
