@@ -310,10 +310,11 @@
   --piel-oscura: #ab897b;
   --cafe: #54361b;
   --cafe-oscuro: #402a16;
+  --cafe-oscuro: #372413;
 }
 /* CABEZA */
 #cabeza .arriba {
-  background-color: #54361b;
+  background-color: #402c1b;
 }
 #cabeza .detras {
   background: linear-gradient(#54361b 80%, #e8bdac 80%);
@@ -327,11 +328,11 @@
 }
 
 #cabeza .derecha {
-  background: linear-gradient(-154deg, #54361b 53%, #e8bdac 53%);
+  background: linear-gradient(-154deg, #372513 53%, #c49b8b 53%);
 }
 
 #cabeza .izquierda {
-  background: linear-gradient(154deg, #54361b 53%, #e8bdac 53%);
+  background: linear-gradient(154deg, #372513 53%, #c49b8b 53%);
 }
 
 /* CUERPO */
