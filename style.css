@@ -48,13 +48,14 @@
 }
 
 #cabeza {
-  animation: moverCabeza 1s linear infinite;
+  /* animation: moverCabeza 1s linear infinite; */
   width: 80px;
   height: 80px;
   transform-origin: 100% 50% 10px;
   transform: translateX(40px) translateZ(40px);
   z-index: 3;
 }
+
 #cabeza .frente,
 #cabeza .arriba,
 #cabeza .izquierda,
@@ -64,25 +65,31 @@
   width: 80px;
   height: 80px;
 }
+
 #cabeza .frente {
   text-align: center;
 }
+
 #cabeza .arriba {
   transform-origin: center bottom;
   transform: rotateX(90deg) translateZ(80px);
 }
+
 #cabeza .abajo {
   transform-origin: center top;
   transform: translateY(80px) rotateX(-90deg);
 }
+
 #cabeza .izquierda {
   transform-origin: center right;
   transform: translateX(-80px) rotateY(-90deg);
 }
+
 #cabeza .derecha {
   transform-origin: center left;
   transform: translateX(80px) rotateY(90deg);
 }
+
 #cabeza .detras {
   transform: translateZ(-80px) rotateY(180deg);
 }
@@ -92,37 +99,45 @@
   height: 120px;
   transform: translateX(40px) translateY(80px) translateZ(20px);
 }
+
 #tronco .frente,
 #tronco .detras {
   width: 80px;
   height: 120px;
 }
+
 #tronco .arriba,
 #tronco .abajo {
   width: 80px;
   height: 40px;
 }
+
 #tronco .izquierda,
 #tronco .derecha {
   width: 40px;
   height: 120px;
 }
+
 #tronco .arriba {
   transform-origin: center bottom;
   transform: rotateX(90deg) translateZ(40px);
 }
+
 #tronco .abajo {
   transform-origin: center top;
   transform: translateY(120px) rotateX(-90deg);
 }
+
 #tronco .derecha {
   transform-origin: center right;
   transform: translateX(-40px) rotateY(-90deg);
 }
+
 #tronco .izquierda {
   transform-origin: center left;
   transform: translateX(80px) rotateY(90deg);
 }
+
 #tronco .detras {
   transform: translateZ(-40px) rotateY(180deg);
 }
@@ -180,6 +195,7 @@
   width: 40px;
   height: 120px;
 }
+
 #brazo-izquierdo .arriba,
 #brazo-izquierdo .abajo,
 #brazo-derecho .arriba,
@@ -191,6 +207,7 @@
   width: 40px;
   height: 40px;
 }
+
 #brazo-izquierdo .arriba,
 #brazo-derecho .arriba,
 #pierna-izquierda .arriba,
@@ -198,6 +215,7 @@
   transform-origin: center bottom;
   transform: rotateX(90deg) translateZ(40px);
 }
+
 #brazo-izquierdo .abajo,
 #brazo-derecho .abajo,
 #pierna-izquierda .abajo,
@@ -205,6 +223,7 @@
   transform-origin: center top;
   transform: translateY(120px) rotateX(-90deg);
 }
+
 #brazo-izquierdo .izquierda,
 #brazo-derecho .izquierda,
 #pierna-izquierda .izquierda,
@@ -212,6 +231,7 @@
   transform-origin: center right;
   transform: translateX(-40px) rotateY(-90deg);
 }
+
 #brazo-izquierdo .derecha,
 #brazo-derecho .derecha,
 #pierna-izquierda .derecha,
@@ -219,6 +239,7 @@
   transform-origin: center left;
   transform: translateX(40px) rotateY(90deg);
 }
+
 #brazo-izquierdo .detras,
 #brazo-derecho .detras,
 #pierna-izquierda .detras,
@@ -230,9 +251,11 @@
   0% {
     transform: translateX(40px) translateZ(40px);
   }
+
   50% {
-    transform: translateX(40px) translateZ(50px) rotateX(-5deg);
+    transform: translateX(40px) translateZ(40px) rotateX(0deg);
   }
+
   100% {
     transform: translateX(40px) translateZ(40px);
   }
@@ -243,49 +266,60 @@
     transform: rotateX(-25deg) translateX(120px) translateY(80px)
       translateZ(20px);
   }
+
   50% {
     transform: rotateX(25deg) translateX(120px) translateY(80px)
       translateZ(20px);
   }
+
   100% {
     transform: rotateX(-25deg) translateX(120px) translateY(80px)
       translateZ(20px);
   }
 }
+
 @keyframes girarBrazoDerecho {
   0% {
     transform: rotateX(25deg) translateY(80px) translateZ(20px);
   }
+
   50% {
     transform: rotateX(-25deg) translateY(80px) translateZ(20px);
   }
+
   100% {
     transform: rotateX(25deg) translateY(80px) translateZ(20px);
   }
 }
+
 @keyframes girarPiernaIzquierda {
   0% {
     transform: rotateX(25deg) translateX(80px) translateY(40px)
       translateZ(20px);
   }
+
   50% {
     transform: rotateX(-25deg) translateX(80px) translateY(40px)
       translateZ(20px);
   }
+
   100% {
     transform: rotateX(25deg) translateX(80px) translateY(40px)
       translateZ(20px);
   }
 }
+
 @keyframes girarPiernaDerecha {
   0% {
     transform: rotateX(-25deg) translateX(40px) translateY(40px)
       translateZ(20px);
   }
+
   50% {
     transform: rotateX(25deg) translateX(40px) translateY(40px)
       translateZ(20px);
   }
+
   100% {
     transform: rotateX(-25deg) translateX(40px) translateY(40px)
       translateZ(20px);
@@ -308,13 +342,16 @@
   --cafe-medio: #402a16;
   --cafe-oscuro: #372413;
 }
+
 /* CABEZA */
 #cabeza .arriba {
   background-color: #402c1b;
 }
+
 #cabeza .detras {
   background: linear-gradient(#54361b 80%, #e8bdac 80%);
 }
+
 #cabeza .abajo {
   background-color: #ab897b;
 }
@@ -339,6 +376,7 @@
 #tronco .arriba {
   background-color: #54acbe;
 }
+
 #tronco .derecha,
 #tronco .izquierda {
   background-color: #369eb2;
@@ -385,6 +423,7 @@
 #pierna-izquierda .detras {
   background: linear-gradient(#332a78 80%, #4c4c4c 80%);
 }
+
 #pierna-derecha .izquierda,
 #pierna-derecha .derecha,
 #pierna-izquierda .izquierda,
@@ -401,4 +440,32 @@
 #pierna-derecha .abajo,
 #pierna-izquierda .abajo {
   background-color: #282828;
+}
+
+/* PERSONAJE AGACHADO ////////////////////////////////////////////////*/
+.cabeza--agachado {
+  transform: translateX(40px) translateY(35px) translateZ(115px) !important;
+  animation: none !important;
+}
+
+.tronco--agachado {
+  transform: translate(40px) translateY(110px) translateZ(40px)
+    rotateX(-35deg) !important;
+  animation: none !important;
+}
+
+.brazo-izquierdo--agachado {
+  transform: translateX(120px) translateY(110px) translateZ(40px)
+    rotateX(-25deg) !important;
+  animation: none !important;
+}
+
+.brazo-derecho--agachado {
+  transform: translateY(110px) translateZ(40px) rotateX(-25deg) !important;
+  animation: none !important;
+}
+
+.pierna-izquierda--agachado,
+.pierna-derecha--agachado {
+  animation: none !important;
 }
