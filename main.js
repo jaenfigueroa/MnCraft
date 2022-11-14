@@ -41,5 +41,3 @@ function agachar() {
   piernaIzquierda.classList.toggle('pierna-izquierda--agachado')
   piernaDerecha.classList.toggle('pierna-derecha--agachado')
 }
-
-agachar()

@@ -469,3 +469,21 @@
 .pierna-derecha--agachado {
   animation: none !important;
 }
+
+/* ///////////////////////////////// */
+.footer-lista {
+  background-color: rgb(101, 101, 101);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  width: max-content;
+  margin: auto;
+  padding-left: 40px;
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.footer-lista b {
+  color: hsl(185, 100%, 87%);
+}
