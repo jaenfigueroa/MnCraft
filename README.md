@@ -6,7 +6,7 @@
 
 ### 📌 Test the result | Probar el resultado
 
-https://jaenfigueroa.github.io/Steve-Minecraft-con-CSS
+https://jaenfigueroa.github.io/3D-Steve-Minecraft-con-CSS
 
 ### 📌 Developed with | Desarrolado con
 
