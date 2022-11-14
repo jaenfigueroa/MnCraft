@@ -365,7 +365,7 @@
 }
 
 #cabeza .frente {
-  background: linear-gradient(#51331a 30%, #e8bdac 30%);
+  background: linear-gradient(#51331a 26%, #e8bdac 26%);
 }
 
 #cabeza .derecha {
@@ -586,8 +586,23 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #ff1111;
-  background: linear-gradient(#8b583e 50%, #ec8d72 50%);
   top: 50px;
   left: 30px;
+  background: linear-gradient(#8b583e 50%, #ec8d72 50%);
+}
+
+#cabeza .frente div::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  top: 20px;
+  left: 0px;
+  background-color: #ff000095;
+  background: linear-gradient(
+    to right,
+    #51331a 12.5%,
+    transparent 12.5% 87.5%,
+    #51331a 87.5%
+  );
 }
