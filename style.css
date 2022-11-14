@@ -475,7 +475,23 @@
   animation: none !important;
 }
 
-/* ///////////////////////////////// */
+/* OTROS///////////////////////////////// */
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.842);
+  display: flex;
+  justify-content: end;
+  width: 90px;
+  height: 90px;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  padding: 10px;
+}
+.header a {
+  color: white;
+  font-size: 2.5rem;
+}
 .footer-lista {
   background-color: rgb(101, 101, 101);
   color: white;
@@ -486,6 +502,10 @@
   padding-left: 40px;
   font-size: 1.1rem;
   line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 445px;
 }
 
 .footer-lista b {
