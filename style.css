@@ -333,19 +333,22 @@
 
 /* COLOREADO//////////////////////////// */
 :root {
-  --celeste-claro: #59c0d5;
-  --celeste-medio: #369eb2;
-  --celeste-oscuro: #308899;
-  --azul-claro: #3d3385;
-  --azul-medio: #332a78;
-  --azul-oscuro: #2b2464;
-  --azul-mas-oscuro: #231e50;
-  --piel-claro: #e8bdac;
-  --piel-medio: #c49b8b;
-  --piel-oscuro: #ab897b;
-  --cafe-claro: #54361b;
-  --cafe-medio: #402a16;
-  --cafe-oscuro: #372413;
+  --celeste-1: #59c0d5;
+  --celeste-2: #369eb2;
+  --celeste-3: #308899;
+  --azul-1: #3d3385;
+  --azul-2: #332a78;
+  --azul-3: #2b2464;
+  --azul-4: #231e50;
+  --piel-1: #e8bdac;
+  --piel-2: #c49b8b;
+  --piel-3: #ab897b;
+  --cafe-1: #54361b;
+  --cafe-2: #402a16;
+  --cafe-3: #372413;
+  --gris1: #4c4c4c;
+  --gris1: #363636;
+  --gris3: #282828;
 }
 
 /* CABEZA */
@@ -362,7 +365,7 @@
 }
 
 #cabeza .frente {
-  background: linear-gradient(#54361b 30%, #e8bdac 30%);
+  background: linear-gradient(#51331a 30%, #e8bdac 30%);
 }
 
 #cabeza .derecha {
@@ -379,7 +382,8 @@
 }
 
 #tronco .arriba {
-  background-color: #54acbe;
+  background-color: #44afc4;
+  background-color: #3ca8be;
 }
 
 #tronco .derecha,
@@ -408,7 +412,7 @@
 
 #brazo-derecho .arriba,
 #brazo-izquierdo .arriba {
-  background-color: #54b3c6;
+  background-color: #3fb3ca;
 }
 
 #brazo-derecho .abajo,
@@ -433,13 +437,12 @@
 #pierna-derecha .derecha,
 #pierna-izquierda .izquierda,
 #pierna-izquierda .derecha {
-  background-color: #2b2464;
-  background: linear-gradient(#2b2464 80%, #363636 80%);
+  background: linear-gradient(#2e2765 80%, #363636 80%);
 }
 
 #pierna-derecha .arriba,
 #pierna-izquierda .arriba {
-  background-color: #2b2365;
+  background-color: #2f2672;
 }
 
 #pierna-derecha .abajo,
@@ -477,8 +480,6 @@
 
 /* OTROS///////////////////////////////// */
 :root {
-  --primario: #ffffff;
-  --secundario: rgba(111, 0, 255, 0.723);
   --primario: #67d4ff;
   --secundario: #4cc9ff;
 }
@@ -540,4 +541,49 @@ body {
 
 .footer-lista b {
   color: hsl(185, 100%, 87%);
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* DETALLES EXTRAS: OJOS,NARIZ, ETC ////////////////////////////*/
+#cabeza .frente::after {
+  content: '';
+  width: 60px;
+  height: 10px;
+  background: linear-gradient(
+    to right,
+    white 16.66%,
+    #423095 16.66% 33.32%,
+    transparent 33.32% 66.66%,
+    #423095 66.66% 83.32%,
+    white 83.32%
+  );
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+#cabeza .frente::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: #56391e;
+  top: 60px;
+  left: 20px;
+}
+
+#cabeza .frente div {
+  width: 100%;
+  height: 100%;
+}
+
+#cabeza .frente div::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ff1111;
+  background: linear-gradient(#8b583e 50%, #ec8d72 50%);
+  top: 50px;
+  left: 30px;
 }
