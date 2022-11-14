@@ -299,9 +299,15 @@
 /* COLOREADO//////////////////////////// */
 :root {
   --celeste: #59c0d5;
+  --celeste-medio: #54b3c6;
+  --celeste-oscuro: #369eb2;
   --azul: #332a78;
+  --azul-oscuro: #2b2464;
   --piel: #e8bdac;
+  --piel-oscura: #ab897b;
+  --piel-oscura: #c49b8b;
   --cafe: #54361b;
+  --cafe-oscuro: #402a16;
 }
 /* CABEZA */
 #cabeza .arriba {
@@ -334,23 +340,26 @@
 /* BRAZOS */
 #brazo-derecho .frente,
 #brazo-derecho .detras,
+#brazo-izquierdo .frente,
+#brazo-izquierdo .detras {
+  background: linear-gradient(#59c0d5 40%, #e8bdac 40%);
+}
+
 #brazo-derecho .izquierda,
 #brazo-derecho .derecha,
-#brazo-izquierdo .frente,
-#brazo-izquierdo .detras,
 #brazo-izquierdo .izquierda,
 #brazo-izquierdo .derecha {
-  background: linear-gradient(#59c0d5 40%, #e8bdac 40%);
+  background: linear-gradient(#369eb2 40%, #c49b8b 40%);
 }
 
 #brazo-derecho .arriba,
 #brazo-izquierdo .arriba {
-  background-color: #59c0d5;
+  background-color: #54b3c6;
 }
 
 #brazo-derecho .abajo,
 #brazo-izquierdo .abajo {
-  background-color: #e8bdac;
+  background-color: #ab897b;
 }
 
 /* PIERNAS */
@@ -358,3 +367,22 @@
 #pierna-izquierda div {
   background-color: #332a78;
 }
+
+/* ////////////////////////////////////// */
+/* .frente,
+.detras {
+  background: rgb(97, 97, 97) !important;
+}
+
+.arriba {
+  background: rgb(110, 110, 110) !important;
+}
+
+.abajo {
+  background: rgb(46, 46, 46) !important;
+}
+
+.izquierda,
+.derecha {
+  background: rgb(71, 71, 71) !important;
+} */
