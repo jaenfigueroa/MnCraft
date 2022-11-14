@@ -87,7 +87,7 @@
 
 #cabeza .izquierda {
   transform-origin: center right;
-  transform: translateX(-80px) rotateY(-90deg);
+  transform: translateX(-80px) translateZ(-80px) rotateY(90deg);
 }
 
 #cabeza .derecha {
@@ -357,7 +357,7 @@
 }
 
 #cabeza .detras {
-  background: linear-gradient(#54361b 80%, #e8bdac 80%);
+  background: linear-gradient(#54361b 87.5%, #e8bdac 87.5%);
 }
 
 #cabeza .abajo {
@@ -369,11 +369,11 @@
 }
 
 #cabeza .derecha {
-  background: linear-gradient(-154deg, #372513 53%, #c49b8b 53%);
+  background: linear-gradient(#372513 53%, #c49b8b 53%);
 }
 
 #cabeza .izquierda {
-  background: linear-gradient(154deg, #372513 53%, #c49b8b 53%);
+  background: linear-gradient(#372513 53%, #c49b8b 53%);
 }
 
 /* CUERPO */
@@ -591,6 +591,7 @@ body {
   background: linear-gradient(#8b583e 50%, #ec8d72 50%);
 }
 
+/* LOS PELOS DE  AMBOS LADOS DE LA FRENTE */
 #cabeza .frente div::before {
   content: '';
   position: absolute;
@@ -605,4 +606,92 @@ body {
     transparent 12.5% 87.5%,
     #51331a 87.5%
   );
+}
+
+/* PELOS DEL LADO DERECHO  */
+#cabeza .derecha:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: red;
+  background: linear-gradient(
+    to right,
+    #372513 12.5%,
+    #c49b8b 12.5% 37.5%,
+    #372513 37.5%
+  );
+}
+
+#cabeza .derecha:before {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: rgb(81, 81, 81);
+  background: linear-gradient(to right, #c49b8b 37.5%, #372513 37.5%);
+}
+
+#cabeza .derecha div {
+  width: 100%;
+  height: 100%;
+}
+
+#cabeza .derecha div:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgb(81, 81, 81);
+  background: linear-gradient(to right, #c49b8b 70%, #372513 70%);
+}
+
+/* PELOS DEL LADO DERECHO  */
+#cabeza .izquierda:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: red;
+  background: linear-gradient(
+    to right,
+    #372513 12.5%,
+    #c49b8b 12.5% 37.5%,
+    #372513 37.5%
+  );
+}
+
+#cabeza .izquierda:before {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: rgb(81, 81, 81);
+  background: linear-gradient(to right, #c49b8b 37.5%, #372513 37.5%);
+}
+
+#cabeza .izquierda div {
+  width: 100%;
+  height: 100%;
+}
+
+#cabeza .izquierda div:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgb(81, 81, 81);
+  background: linear-gradient(to right, #c49b8b 70%, #372513 70%);
 }
