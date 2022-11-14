@@ -476,7 +476,7 @@
 }
 
 /* OTROS///////////////////////////////// */
-.header {
+.github {
   position: absolute;
   top: 0;
   right: 0;
@@ -488,10 +488,11 @@
   clip-path: polygon(100% 0, 0 0, 100% 100%);
   padding: 10px;
 }
-.header a {
+.github a {
   color: white;
   font-size: 2.5rem;
 }
+
 .footer-lista {
   background-color: rgb(101, 101, 101);
   color: white;
