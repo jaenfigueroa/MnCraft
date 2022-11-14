@@ -12,6 +12,7 @@
   transform-style: preserve-3d;
   transform-origin: 50% 50% 0;
   /* background-color: red; */
+  zoom: 1.6;
 }
 
 #cabeza,
@@ -298,18 +299,18 @@
 
 /* COLOREADO//////////////////////////// */
 :root {
-  --celeste: #59c0d5;
-  --celeste-oscuro: #369eb2;
+  --celeste-claro: #59c0d5;
+  --celeste-medio: #369eb2;
   --celeste-oscuro: #308899;
-  --azul: #3d3385;
-  --azul: #332a78;
+  --azul-claro: #3d3385;
+  --azul-medio: #332a78;
   --azul-oscuro: #2b2464;
-  --azul-oscuro: #231e50;
-  --piel: #e8bdac;
+  --azul-mas-oscuro: #231e50;
+  --piel-clara: #e8bdac;
   --piel-media: #c49b8b;
   --piel-oscura: #ab897b;
-  --cafe: #54361b;
-  --cafe-oscuro: #402a16;
+  --cafe-claro: #54361b;
+  --cafe-medio: #402a16;
   --cafe-oscuro: #372413;
 }
 /* CABEZA */
@@ -320,7 +321,7 @@
   background: linear-gradient(#54361b 80%, #e8bdac 80%);
 }
 #cabeza .abajo {
-  background-color: #e8bdac;
+  background-color: #ab897b;
 }
 
 #cabeza .frente {
@@ -340,13 +341,16 @@
   background-color: #59c0d5;
 }
 
+#tronco .arriba {
+  background-color: #54acbe;
+}
 #tronco .derecha,
 #tronco .izquierda {
   background-color: #369eb2;
 }
 
 #tronco .abajo {
-  background-color: #308899;
+  background-color: #2e8090;
 }
 
 /* BRAZOS */
@@ -394,5 +398,5 @@
 
 #pierna-derecha .arriba,
 #pierna-izquierda .arriba {
-  background-color: #383082;
+  background-color: #2f2670;
 }
