@@ -485,7 +485,7 @@
 
 body {
   height: 100vh;
-  /* background: repeating-conic-gradient(
+  background: repeating-conic-gradient(
     at 20% 20%,
     var(--primario) 10%,
     var(--secundario) 10% 20%,
@@ -497,8 +497,10 @@ body {
     var(--secundario) 70% 80%,
     var(--primario) 80% 90%,
     var(--secundario) 90%
-  ); */
-  background-color: #cfd7fb;
+  );
+  /* background: linear-gradient(#3c7bf9, #e5ecff 80%); */
+  /* background: linear-gradient(#7ec9fd, #aeddff 60%); */
+
   overflow: hidden;
 }
 
