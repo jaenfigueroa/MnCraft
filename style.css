@@ -15,7 +15,7 @@
 }
 
 #cabeza,
-#cuerpo,
+#tronco,
 #brazo-derecho,
 #brazo-izquierdo,
 #pierna-derecha,
@@ -91,43 +91,43 @@
   transform: translateZ(-80px) rotateY(180deg);
 }
 
-#cuerpo {
+#tronco {
   width: 80px;
   height: 120px;
   transform: translateX(40px) translateY(80px) translateZ(20px);
 }
-#cuerpo .frente,
-#cuerpo .detras {
+#tronco .frente,
+#tronco .detras {
   width: 80px;
   height: 120px;
 }
-#cuerpo .arriba,
-#cuerpo .abajo {
+#tronco .arriba,
+#tronco .abajo {
   width: 80px;
   height: 40px;
 }
-#cuerpo .izquierda,
-#cuerpo .derecha {
+#tronco .izquierda,
+#tronco .derecha {
   width: 40px;
   height: 120px;
 }
-#cuerpo .arriba {
+#tronco .arriba {
   transform-origin: center bottom;
   transform: rotateX(90deg) translateZ(40px);
 }
-#cuerpo .abajo {
+#tronco .abajo {
   transform-origin: center top;
   transform: translateY(120px) rotateX(-90deg);
 }
-#cuerpo .derecha {
+#tronco .derecha {
   transform-origin: center right;
   transform: translateX(-40px) rotateY(-90deg);
 }
-#cuerpo .izquierda {
+#tronco .izquierda {
   transform-origin: center left;
   transform: translateX(80px) rotateY(90deg);
 }
-#cuerpo .detras {
+#tronco .detras {
   transform: translateZ(-40px) rotateY(180deg);
 }
 
@@ -327,7 +327,7 @@
 }
 
 /* CUERPO */
-#cuerpo div {
+#tronco div {
   background-color: #59c0d5;
 }
 
