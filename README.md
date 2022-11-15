@@ -5,6 +5,8 @@
   <img src="./preview3.gif" align="center" style="width: 80%" />
   
   [img]https://i.imgur.com/LFvxCi6.gif[/img]
+  
+  [Imgur](https://imgur.com/LFvxCi6)
 </div>
 
 ### 📌 Test the result | Probar el resultado
