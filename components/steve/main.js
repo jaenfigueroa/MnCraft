@@ -50,7 +50,7 @@ window.addEventListener('keydown', (evento) => {
 
 /* VOLTEAR Y CAMINAR/PARAR ///////////////////////////////////////////////*/
 let rotacionY = 0
-let rotacionX = -25
+let rotacionX = 0
 
 window.addEventListener('keydown', (evento) => {
 
@@ -128,3 +128,36 @@ window.addEventListener('keydown', (evento) => {
 
 parar()
 
+//////////////////////////////////////////////
+
+const main = document.getElementById('main')
+
+let ubicacionX = 0
+let ubicacionZ = 0
+const distancia = 30
+
+window.addEventListener('keydown', obtenerCoordenadas)
+
+function obtenerCoordenadas(evento) {
+
+  if (evento.code == 'KeyW') {
+    ubicacionZ -= distancia
+  } else if (evento.code == 'KeyS') {
+    ubicacionZ += distancia
+  } else if (evento.code == 'KeyA') {
+    ubicacionX -= distancia
+  } else if (evento.code == 'KeyD') {
+    ubicacionX += distancia
+  }
+
+  movermeEnElPlano()
+}
+
+function movermeEnElPlano() {
+  main.style.transform =
+    `rotateX(-25deg)
+     rotateY(-35deg)
+     translateX(${ubicacionX}px)
+     translateZ(${ubicacionZ}px) 
+    `
+}

@@ -475,9 +475,9 @@ ol {
   background: linear-gradient(
     to right,
     white 16.66%,
-    var(--azul-0) 16.66% 33.32%,
+    var(--ojos) 16.66% 33.32%,
     transparent 33.32% 66.66%,
-    var(--azul-0) 66.66% 83.32%,
+    var(--ojos) 66.66% 83.32%,
     white 83.32%
   );
   position: absolute;
@@ -739,12 +739,31 @@ ol {
 }
 
 /* /////////////////////////////////////////////////////////////////////// */
+body {
+  overflow: hidden;
+}
+
+main {
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transform: rotateX(-25deg) rotateY(-35deg);
+  /* transition: 1s; */
+  transition: 0.1s;
+}
+
 #contenedor-steve {
   /* background-color: rgba(34, 255, 0, 0.752); */
   transform-style: preserve-3d;
   transition: 0.4s;
-  /* transform: rotateY(80deg) rotateX(-25deg); */
   zoom: 1.5;
+  position: relative;
+
+  /* transform: translateX(-50px) translateZ(-100px); */
 }
 
 #steve {
@@ -775,13 +794,4 @@ ol {
   background-color: rgba(0, 0, 0, 0.263);
   border-radius: 50%;
   transition: 0.4s;
-}
-
-main {
-  /* background-color: red; */
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
