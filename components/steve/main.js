@@ -54,8 +54,6 @@ let rotacionX = 0
 
 window.addEventListener('keydown', (evento) => {
 
-  console.log(evento.key);
-
   if (evento.code == 'KeyS') {
     rotacionY = 0
     contenedorSteve.style.transform = `rotateX(${rotacionX}deg) rotateY(${rotacionY}deg)`

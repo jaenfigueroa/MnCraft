@@ -151,26 +151,26 @@ ol {
 
 #brazo-izquierdo {
   transform: translateX(120px) translateY(80px) translateZ(20px);
-  animation: girarBrazoIzquierdo 1s linear infinite;
+  animation: girarBrazoIzquierdo 0.8s linear infinite;
   transform-origin: 100% 75% 0;
 }
 
 #brazo-derecho {
   transform: translateY(80px) translateZ(20px);
-  animation: girarBrazoDerecho 1s linear infinite;
+  animation: girarBrazoDerecho 0.8s linear infinite;
   transform-origin: 0% 75% 0;
 }
 
 #pierna-izquierda {
   transform: translateX(80px) translateY(40px) translateZ(20px);
-  animation: girarPiernaIzquierda 1s linear infinite;
+  animation: girarPiernaIzquierda 0.8s linear infinite;
   transform-origin: 100% 50% 0;
   top: 160px;
 }
 
 #pierna-derecha {
   transform: translateX(40px) translateY(40px) translateZ(20px);
-  animation: girarPiernaDerecha 1s linear infinite;
+  animation: girarPiernaDerecha 0.8s linear infinite;
   transform-origin: 0% 50% 0;
   top: 160px;
 }
@@ -752,7 +752,6 @@ main {
   justify-content: center;
   transform-style: preserve-3d;
   transform: rotateX(-25deg) rotateY(-35deg);
-  /* transition: 1s; */
   transition: 0.1s;
 }
 
