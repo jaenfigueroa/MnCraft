@@ -2,7 +2,7 @@
 
 <div >
   <!-- <img src="./preview2.gif" align="center" style="width: 70%" /> -->
-  <img src="./preview3.gif" align="center" style="width: 50%" />
+  <img src="./preview3.gif" align="center" style="width: 80%" />
 </div>
 
 ### 📌 Test the result | Probar el resultado
