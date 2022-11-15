@@ -382,8 +382,7 @@
 }
 
 #tronco .arriba {
-  background-color: #44afc4;
-  background-color: #3ca8be;
+  background: #3ca8be;
 }
 
 #tronco .derecha,
@@ -791,6 +790,17 @@ body {
   background-color: #363636;
   bottom: 24px;
   right: 0;
+}
+
+/* CUELLO OCULTO DEBAJO DE LA CABEZA */
+#tronco .arriba:after {
+  content: '';
+  width: 60px;
+  height: 12.5px;
+  background-color: #e8bdac;
+  bottom: 0;
+  left: 10px;
+  position: absolute;
 }
 
 /* TERMINADO :D */
