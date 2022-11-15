@@ -22,7 +22,14 @@ function girar(evento) {
 }
 
 //MODO AGACHADO////////////////////////////////////////////////////////////
-window.addEventListener('dblclick', agachar)
+// window.addEventListener('dblclick', agachar)
+
+window.addEventListener('keypress', (event) => {
+  if (event.key == 'a') {
+    agachar()
+  }
+})
+
 
 let cabeza = document.getElementById('cabeza')
 let tronco = document.getElementById('tronco')
