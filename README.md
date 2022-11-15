@@ -3,6 +3,8 @@
 <div >
   <!-- <img src="./preview2.gif" align="center" style="width: 70%" /> -->
   <img src="./preview3.gif" align="center" style="width: 80%" />
+  
+  [img]https://i.imgur.com/LFvxCi6.gif[/img]
 </div>
 
 ### 📌 Test the result | Probar el resultado
