@@ -361,7 +361,7 @@
 }
 
 #cabeza .abajo {
-  background-color: #ab897b;
+  background: linear-gradient(#372513 50%, #ab897b 50%);
 }
 
 #cabeza .frente {
@@ -378,7 +378,7 @@
 
 /* CUERPO */
 #tronco div {
-  background-color: #59c0d5;
+  background: linear-gradient(#59c0d5 79.5%, #332a78 79.5%);
 }
 
 #tronco .arriba {
@@ -392,7 +392,7 @@
 }
 
 #tronco .abajo {
-  background-color: #2e8090;
+  background: #332a78;
 }
 
 /* BRAZOS */
@@ -694,4 +694,74 @@ body {
   left: 0;
   background-color: rgb(81, 81, 81);
   background: linear-gradient(to right, #c49b8b 70%, #372513 70%);
+}
+
+/* CUELLO */
+#tronco .frente::after {
+  content: '';
+  width: 40px;
+  height: 12.5px;
+  background-color: #e8bdac;
+  top: 0;
+  left: 20px;
+  position: absolute;
+}
+
+#tronco .frente::before {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  background-color: #e8bdac;
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+/* PARTE BAJA DEL TRONCO FRONTAL */
+#tronco .frente div {
+  width: 100%;
+  height: 100%;
+}
+
+#tronco .frente div::after {
+  content: '';
+  width: 25px;
+  height: 12.5px;
+  background-color: #59c0d5;
+  bottom: 12.5px;
+  right: 0;
+  position: absolute;
+}
+
+#tronco .frente div::before {
+  content: '';
+  width: 12.5px;
+  height: 12.5px;
+  background-color: #59c0d5;
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+}
+
+/* PARTE BAJA DEL TRONCO IZQUIERDA */
+#tronco .izquierda:after {
+  content: '';
+  width: 12.5px;
+  height: 12.5px;
+  background-color: #59c0d5;
+  position: absolute;
+  bottom: 12.5px;
+  left: 0;
+}
+
+/* RODILLAS */
+#pierna-izquierda::after,
+#pierna-derecha::after {
+  content: '';
+  width: 25px;
+  height: 12.5px;
+  background-color: #2e2765;
+  position: absolute;
+  top: 50px;
+  left: 8px;
 }
