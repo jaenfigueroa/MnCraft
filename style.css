@@ -427,10 +427,14 @@
 }
 
 #pierna-derecha .frente,
-#pierna-derecha .detras,
-#pierna-izquierda .frente,
-#pierna-izquierda .detras {
+#pierna-izquierda .frente {
   background: linear-gradient(#332a78 80%, #4c4c4c 80%);
+}
+
+#pierna-derecha .detras,
+#pierna-izquierda .detras {
+  /* background: linear-gradient(#332a78 70%, #4c4c4c 70%); */
+  background: linear-gradient(to top, #4c4c4c 37.5px, #332a78 37.5px);
 }
 
 #pierna-derecha .izquierda,
@@ -765,3 +769,28 @@ body {
   top: 50px;
   left: 8px;
 }
+
+/* DETALLES DE LOS ZAPATOS DE LOS COSTADOS */
+#pierna-derecha .izquierda::after,
+#pierna-izquierda .izquierda::after {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  position: absolute;
+  background-color: #363636;
+  bottom: 24px;
+  left: 0;
+}
+
+#pierna-izquierda .derecha::after,
+#pierna-derecha .derecha::after {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  position: absolute;
+  background-color: #363636;
+  bottom: 24px;
+  right: 0;
+}
+
+/* TERMINADO :D */
