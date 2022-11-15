@@ -1,19 +1,21 @@
+@import url(colores.css);
+
 * {
   user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
   font-family: sans-serif;
 }
-
-#base {
-  transform: rotateX(-20deg) rotateY(-45deg);
-  width: 160px;
-  height: 320px;
-  margin: 45px auto;
-  position: relative;
-  transform-style: preserve-3d;
-  transform-origin: 50% 50% 0;
-  /* background-color: red; */
-  zoom: 1.5;
+html {
+  font-size: 62.5%; /* PARA USAR -> 1rem = 10px */
 }
+ul,
+ol {
+  list-style: none;
+}
+/*/////////////////////////*/
 
 #cabeza,
 #tronco,
@@ -332,66 +334,49 @@
 }
 
 /* COLOREADO//////////////////////////// */
-:root {
-  --celeste-1: #59c0d5;
-  --celeste-2: #369eb2;
-  --celeste-3: #308899;
-  --azul-1: #3d3385;
-  --azul-2: #332a78;
-  --azul-3: #2b2464;
-  --azul-4: #231e50;
-  --piel-1: #e8bdac;
-  --piel-2: #c49b8b;
-  --piel-3: #ab897b;
-  --cafe-1: #54361b;
-  --cafe-2: #402a16;
-  --cafe-3: #372413;
-  --gris1: #4c4c4c;
-  --gris1: #363636;
-  --gris3: #282828;
-}
 
 /* CABEZA */
 #cabeza .arriba {
-  background-color: #402c1b;
+  background-color: var(--cafe-2);
 }
 
 #cabeza .detras {
-  background: linear-gradient(#54361b 87.5%, #e8bdac 87.5%);
+  background: linear-gradient(var(--cafe-1) 87.5%, var(--piel-1) 87.5%);
 }
 
 #cabeza .abajo {
-  background: linear-gradient(#372513 50%, #ab897b 50%);
+  background: linear-gradient(var(--cafe-3) 50%, var(--piel-3) 50%);
 }
 
 #cabeza .frente {
-  background: linear-gradient(#51331a 26%, #e8bdac 26%);
+  background: linear-gradient(var(--cafe-1) 26%, var(--piel-1) 26%);
 }
 
 #cabeza .derecha {
-  background: linear-gradient(#372513 53%, #c49b8b 53%);
+  background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
 }
 
 #cabeza .izquierda {
-  background: linear-gradient(#372513 53%, #c49b8b 53%);
+  background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
 }
 
 /* CUERPO */
-#tronco div {
-  background: linear-gradient(#59c0d5 79.5%, #332a78 79.5%);
+#tronco .frente,
+#tronco .detras {
+  background: linear-gradient(var(--celeste-1) 79.5%, var(--azul-1) 79.5%);
 }
 
 #tronco .arriba {
-  background: #3ca8be;
+  background: var(--celeste-2);
 }
 
 #tronco .derecha,
 #tronco .izquierda {
-  background-color: #369eb2;
+  background: linear-gradient(var(--celeste-3) 79.5%, var(--azul-2) 79.5%);
 }
 
 #tronco .abajo {
-  background: #332a78;
+  background: var(--azul-1);
 }
 
 /* BRAZOS */
@@ -399,58 +384,56 @@
 #brazo-derecho .detras,
 #brazo-izquierdo .frente,
 #brazo-izquierdo .detras {
-  background: linear-gradient(#59c0d5 40%, #e8bdac 40%);
+  background: linear-gradient(var(--celeste-1) 40%, var(--piel-1) 40%);
 }
 
 #brazo-derecho .izquierda,
 #brazo-derecho .derecha,
 #brazo-izquierdo .izquierda,
 #brazo-izquierdo .derecha {
-  background: linear-gradient(#369eb2 40%, #c49b8b 40%);
+  background: linear-gradient(var(--celeste-3) 40%, var(--piel-2) 40%);
 }
 
 #brazo-derecho .arriba,
 #brazo-izquierdo .arriba {
-  background-color: #3fb3ca;
+  background-color: var(--celeste-2);
 }
 
 #brazo-derecho .abajo,
 #brazo-izquierdo .abajo {
-  background-color: #ab897b;
+  background-color: var(--piel-3);
 }
 
 /* PIERNAS */
-#pierna-derecha div,
-#pierna-izquierda div {
-  background-color: #332a78;
-}
-
 #pierna-derecha .frente,
 #pierna-izquierda .frente {
-  background: linear-gradient(#332a78 80%, #4c4c4c 80%);
+  background: linear-gradient(var(--azul-1) 80%, var(--gris-1) 80%);
 }
 
 #pierna-derecha .detras,
 #pierna-izquierda .detras {
-  /* background: linear-gradient(#332a78 70%, #4c4c4c 70%); */
-  background: linear-gradient(to top, #4c4c4c 37.5px, #332a78 37.5px);
+  background: linear-gradient(
+    to top,
+    var(--gris-1) 37.5px,
+    var(--azul-1) 37.5px
+  );
 }
 
 #pierna-derecha .izquierda,
 #pierna-derecha .derecha,
 #pierna-izquierda .izquierda,
 #pierna-izquierda .derecha {
-  background: linear-gradient(#2e2765 80%, #363636 80%);
+  background: linear-gradient(var(--azul-2) 80%, var(--gris-2) 80%);
 }
 
 #pierna-derecha .arriba,
 #pierna-izquierda .arriba {
-  background-color: #2f2672;
+  background-color: var(--azul-3);
 }
 
 #pierna-derecha .abajo,
 #pierna-izquierda .abajo {
-  background-color: #282828;
+  background-color: var(--gris-3);
 }
 
 /* PERSONAJE AGACHADO ////////////////////////////////////////////////*/
@@ -492,9 +475,9 @@
   background: linear-gradient(
     to right,
     white 16.66%,
-    #423095 16.66% 33.32%,
+    var(--azul-0) 16.66% 33.32%,
     transparent 33.32% 66.66%,
-    #423095 66.66% 83.32%,
+    var(--azul-0) 66.66% 83.32%,
     white 83.32%
   );
   position: absolute;
@@ -508,7 +491,7 @@
   position: absolute;
   width: 40px;
   height: 20px;
-  background-color: #56391e;
+  background-color: var(--cafe-1);
   top: 60px;
   left: 20px;
 }
@@ -526,7 +509,7 @@
   height: 20px;
   top: 50px;
   left: 30px;
-  background: linear-gradient(#8b583e 50%, #ec8d72 50%);
+  background: linear-gradient(var(--cafe-0) 50%, var(--piel-4) 50%);
 }
 
 /* LOS PELOS DE  AMBOS LADOS DE LA FRENTE */
@@ -540,9 +523,9 @@
   background-color: #ff000095;
   background: linear-gradient(
     to right,
-    #51331a 12.5%,
+    var(--cafe-1) 12.5%,
     transparent 12.5% 87.5%,
-    #51331a 87.5%
+    var(--cafe-1) 87.5%
   );
 }
 
@@ -557,9 +540,9 @@
   background-color: red;
   background: linear-gradient(
     to right,
-    #372513 12.5%,
-    #c49b8b 12.5% 37.5%,
-    #372513 37.5%
+    var(--cafe-3) 12.5%,
+    var(--piel-2) 12.5% 37.5%,
+    var(--cafe-3) 37.5%
   );
 }
 
@@ -570,8 +553,11 @@
   position: absolute;
   top: 50px;
   left: 0;
-  background-color: rgb(81, 81, 81);
-  background: linear-gradient(to right, #c49b8b 37.5%, #372513 37.5%);
+  background: linear-gradient(
+    to right,
+    var(--piel-2) 37.5%,
+    var(--cafe-3) 37.5%
+  );
 }
 
 #cabeza .derecha div {
@@ -586,8 +572,11 @@
   position: absolute;
   top: 60px;
   left: 0;
-  background-color: rgb(81, 81, 81);
-  background: linear-gradient(to right, #c49b8b 70%, #372513 70%);
+  background: linear-gradient(
+    to right,
+    var(--piel-2) 70%,
+    var(--cafe-3) 70%
+  );
 }
 
 /* PELOS DEL LADO DERECHO  */
@@ -601,9 +590,9 @@
   background-color: red;
   background: linear-gradient(
     to right,
-    #372513 12.5%,
-    #c49b8b 12.5% 37.5%,
-    #372513 37.5%
+    var(--cafe-3) 12.5%,
+    var(--piel-2) 12.5% 37.5%,
+    var(--cafe-3) 37.5%
   );
 }
 
@@ -614,8 +603,11 @@
   position: absolute;
   top: 50px;
   left: 0;
-  background-color: rgb(81, 81, 81);
-  background: linear-gradient(to right, #c49b8b 37.5%, #372513 37.5%);
+  background: linear-gradient(
+    to right,
+    var(--piel-2) 37.5%,
+    var(--cafe-3) 37.5%
+  );
 }
 
 #cabeza .izquierda div {
@@ -630,8 +622,11 @@
   position: absolute;
   top: 60px;
   left: 0;
-  background-color: rgb(81, 81, 81);
-  background: linear-gradient(to right, #c49b8b 70%, #372513 70%);
+  background: linear-gradient(
+    to right,
+    var(--piel-2) 70%,
+    var(--cafe-3) 70%
+  );
 }
 
 /* CUELLO */
@@ -639,7 +634,7 @@
   content: '';
   width: 40px;
   height: 12.5px;
-  background-color: #e8bdac;
+  background-color: var(--piel-1);
   top: 0;
   left: 20px;
   position: absolute;
@@ -649,7 +644,7 @@
   content: '';
   width: 20px;
   height: 12.5px;
-  background-color: #e8bdac;
+  background-color: var(--piel-1);
   top: 10px;
   left: 30px;
   position: absolute;
@@ -665,7 +660,7 @@
   content: '';
   width: 25px;
   height: 12.5px;
-  background-color: #59c0d5;
+  background-color: var(--celeste-1);
   bottom: 12.5px;
   right: 0;
   position: absolute;
@@ -675,7 +670,7 @@
   content: '';
   width: 12.5px;
   height: 12.5px;
-  background-color: #59c0d5;
+  background-color: var(--celeste-1);
   bottom: 0px;
   right: 0;
   position: absolute;
@@ -686,7 +681,7 @@
   content: '';
   width: 12.5px;
   height: 12.5px;
-  background-color: #59c0d5;
+  background-color: var(--celeste-3);
   position: absolute;
   bottom: 12.5px;
   left: 0;
@@ -698,7 +693,7 @@
   content: '';
   width: 25px;
   height: 12.5px;
-  background-color: #2e2765;
+  background-color: var(--azul-4);
   position: absolute;
   top: 50px;
   left: 8px;
@@ -711,7 +706,7 @@
   width: 20px;
   height: 12.5px;
   position: absolute;
-  background-color: #363636;
+  background-color: var(--gris-2);
   bottom: 24px;
   left: 0;
 }
@@ -722,7 +717,7 @@
   width: 20px;
   height: 12.5px;
   position: absolute;
-  background-color: #363636;
+  background-color: var(--gris-2);
   bottom: 24px;
   right: 0;
 }
@@ -732,95 +727,61 @@
   content: '';
   width: 60px;
   height: 12.5px;
-  background-color: #e8bdac;
+  background-color: var(--piel-1);
   bottom: 0;
   left: 10px;
   position: absolute;
 }
 
-/* OTROS, HEADER GITHUB, ETC///////////////////////////////// */
-:root {
-  --primario: #7ec9fd;
-  --secundario: #aeddff;
+/* NO MOVERSE */
+.quieto {
+  animation: none !important;
 }
 
-body {
-  height: 100vh;
-  background: repeating-conic-gradient(
-    at 20% 20%,
-    var(--primario) 10%,
-    var(--secundario) 10% 20%,
-    var(--primario) 20% 30%,
-    var(--secundario) 30% 40%,
-    var(--primario) 40% 50%,
-    var(--secundario) 50% 60%,
-    var(--primario) 60% 70%,
-    var(--secundario) 70% 80%,
-    var(--primario) 80% 90%,
-    var(--secundario) 90%
-  );
-  /* background: linear-gradient(#7ec9fd, #aeddff); */
-  overflow: hidden;
+/* /////////////////////////////////////////////////////////////////////// */
+#contenedor-steve {
+  /* background-color: rgba(34, 255, 0, 0.752); */
+  transform-style: preserve-3d;
+  transition: 0.4s;
+  /* transform: rotateY(80deg) rotateX(-25deg); */
+  zoom: 1.5;
 }
 
-.github {
+#steve {
+  width: 160px;
+  height: 320px;
+  position: relative;
+  transform-style: preserve-3d;
+  /* border: 1px solid black; */
+  transition: 0.4s;
+}
+
+/* SOMBRA */
+#contenedor-sombra {
+  width: 140px;
+  height: 140px;
+  /* background-color: rgba(255, 0, 0, 0.363);c */
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.842);
+  bottom: 0;
   display: flex;
-  justify-content: end;
-  width: 90px;
-  height: 90px;
-  clip-path: polygon(100% 0, 0 0, 100% 100%);
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(89deg) translateZ(-70px) translateX(8px);
 }
 
-.github a {
-  color: white;
-  font-size: 2.5rem;
+#sombra {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.263);
+  border-radius: 50%;
+  transition: 0.4s;
 }
 
-.footer-lista {
-  background-color: rgb(74, 74, 74);
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  width: max-content;
-  margin: auto;
-  padding-left: 40px;
-  font-size: 1.1rem;
-  line-height: 30px;
-  display: none;
-  flex-direction: column;
-  width: 80%;
-  max-width: 445px;
+main {
+  /* background-color: red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.footer-lista b {
-  color: hsl(185, 100%, 77%);
-}
-
-/* ACOMODAR EL FOOTER */
-@media (min-width: 640px) {
-  body {
-    overflow: hidden;
-  }
-  #instrucciones {
-    display: flex;
-  }
-}
-
-@media (min-width: 940px) {
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #base {
-    zoom: 1.6;
-  }
-}
-
-/* TERMINADO :D */

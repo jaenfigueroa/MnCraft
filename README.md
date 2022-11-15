@@ -1,15 +1,14 @@
-### 📌 Preview | Vista previa
+### 📌 Preview
 
 <div >
-  <!-- <img src="./preview2.gif" align="center" style="width: 70%" /> -->
-  <img src="./preview3.gif" align="center" style="width: 80%" />
+  <img src="./assets/preview3.gif" align="center" style="width: 80%" />
 </div>
 
-### 📌 Test the result | Probar el resultado
+### 📌 Test the result
 
 https://jaenfigueroa.github.io/3D-Steve-Minecraft-only-with-CSS
 
-### 📌 Developed with | Desarrolado con
+### 📌 Developed with
 
 - HTML5
 - CSS3
