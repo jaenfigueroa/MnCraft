@@ -481,71 +481,6 @@
   animation: none !important;
 }
 
-/* OTROS///////////////////////////////// */
-:root {
-  --primario: #67d4ff;
-  --secundario: #4cc9ff;
-}
-
-body {
-  height: 100vh;
-  background: repeating-conic-gradient(
-    at 20% 20%,
-    var(--primario) 10%,
-    var(--secundario) 10% 20%,
-    var(--primario) 20% 30%,
-    var(--secundario) 30% 40%,
-    var(--primario) 40% 50%,
-    var(--secundario) 50% 60%,
-    var(--primario) 60% 70%,
-    var(--secundario) 70% 80%,
-    var(--primario) 80% 90%,
-    var(--secundario) 90%
-  );
-  /* background: linear-gradient(#3c7bf9, #e5ecff 80%); */
-  /* background: linear-gradient(#7ec9fd, #aeddff 60%); */
-
-  overflow: hidden;
-}
-
-.github {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.842);
-  display: flex;
-  justify-content: end;
-  width: 90px;
-  height: 90px;
-  clip-path: polygon(100% 0, 0 0, 100% 100%);
-  padding: 10px;
-}
-
-.github a {
-  color: white;
-  font-size: 2.5rem;
-}
-
-.footer-lista {
-  background-color: rgb(74, 74, 74);
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  width: max-content;
-  margin: auto;
-  padding-left: 40px;
-  font-size: 1.1rem;
-  line-height: 30px;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  max-width: 445px;
-}
-
-.footer-lista b {
-  color: hsl(185, 100%, 87%);
-}
-
 /* ///////////////////////////////////////////////////////////// */
 /* DETALLES EXTRAS: OJOS,NARIZ, ETC ////////////////////////////*/
 
@@ -801,6 +736,91 @@ body {
   bottom: 0;
   left: 10px;
   position: absolute;
+}
+
+/* OTROS, HEADER GITHUB, ETC///////////////////////////////// */
+:root {
+  --primario: #7ec9fd;
+  --secundario: #aeddff;
+}
+
+body {
+  height: 100vh;
+  background: repeating-conic-gradient(
+    at 20% 20%,
+    var(--primario) 10%,
+    var(--secundario) 10% 20%,
+    var(--primario) 20% 30%,
+    var(--secundario) 30% 40%,
+    var(--primario) 40% 50%,
+    var(--secundario) 50% 60%,
+    var(--primario) 60% 70%,
+    var(--secundario) 70% 80%,
+    var(--primario) 80% 90%,
+    var(--secundario) 90%
+  );
+  /* background: linear-gradient(#7ec9fd, #aeddff); */
+  overflow: hidden;
+}
+
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.842);
+  display: flex;
+  justify-content: end;
+  width: 90px;
+  height: 90px;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  padding: 10px;
+}
+
+.github a {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.footer-lista {
+  background-color: rgb(74, 74, 74);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: max-content;
+  margin: auto;
+  padding-left: 40px;
+  font-size: 1.1rem;
+  line-height: 30px;
+  display: none;
+  flex-direction: column;
+  width: 80%;
+  max-width: 445px;
+}
+
+.footer-lista b {
+  color: hsl(185, 100%, 77%);
+}
+
+/* ACOMODAR EL FOOTER */
+@media (min-width: 640px) {
+  body {
+    overflow: hidden;
+  }
+  #instrucciones {
+    display: flex;
+  }
+}
+
+@media (min-width: 940px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #base {
+    zoom: 1.6;
+  }
 }
 
 /* TERMINADO :D */
