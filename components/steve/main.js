@@ -41,10 +41,19 @@ const sombra = document.getElementById('sombra')
 /* AGACHARSE///////////////////////////////////////////////////////////// */
 window.addEventListener('keydown', (evento) => {
   if (evento.code == 'ShiftLeft') {
-    cabeza.classList.toggle('cabeza--agachado')
-    tronco.classList.toggle('tronco--agachado')
-    brazoIzquierdo.classList.toggle('brazo-izquierdo--agachado')
-    brazoDerecho.classList.toggle('brazo-derecho--agachado')
+    cabeza.classList.add('cabeza--agachado')
+    tronco.classList.add('tronco--agachado')
+    brazoIzquierdo.classList.add('brazo-izquierdo--agachado')
+    brazoDerecho.classList.add('brazo-derecho--agachado')
+  }
+})
+
+window.addEventListener('keyup', (evento) => {
+  if (evento.code == 'ShiftLeft') {
+    cabeza.classList.remove('cabeza--agachado')
+    tronco.classList.remove('tronco--agachado')
+    brazoIzquierdo.classList.remove('brazo-izquierdo--agachado')
+    brazoDerecho.classList.remove('brazo-derecho--agachado')
   }
 })
 
@@ -57,27 +66,34 @@ window.addEventListener('keydown', (evento) => {
   if (evento.code == 'KeyS') {
     rotacionY = 0
     contenedorSteve.style.transform = `rotateX(${rotacionX}deg) rotateY(${rotacionY}deg)`
+    caminar()
+
 
   }
 
   else if (evento.code == 'KeyD') {
     rotacionY = 90
     contenedorSteve.style.transform = `rotateX(${rotacionX}deg) rotateY(${rotacionY}deg)`
+    caminar()
+
   }
 
   else if (evento.code == 'KeyW') {
     rotacionY = 180
     contenedorSteve.style.transform = `rotateX(${rotacionX}deg) rotateY(${rotacionY}deg)`
+    caminar()
+
 
   }
 
   else if (evento.code == 'KeyA') {
     rotacionY = 270
     contenedorSteve.style.transform = `rotateX(${rotacionX}deg) rotateY(${rotacionY}deg)`
+    caminar()
+
 
   }
 
-  caminar()
 })
 
 window.addEventListener('keyup', (evento) => {
