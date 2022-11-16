@@ -838,8 +838,12 @@ footer article li b {
   font-weight: lighter;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 680px) {
   footer {
+    display: none;
+    justify-content: right;
+  }
+  #movimientos {
     display: none;
   }
 }
