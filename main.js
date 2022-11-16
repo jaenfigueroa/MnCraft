@@ -80,7 +80,6 @@ window.addEventListener('keyup', (evento) => {
   if (evento.code == 'KeyW' || evento.code == 'KeyS' || evento.code == 'KeyA' || evento.code == 'KeyD') {
     parar()
   }
-
 })
 
 ////////////////////////////////////////////////
@@ -120,7 +119,7 @@ window.addEventListener('keydown', (evento) => {
 })
 
 
-parar()
+// parar()
 
 //////////////////////////////////////////////
 
