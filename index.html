@@ -2,16 +2,21 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Jaen Figueroa">
-    <meta name="description" content="Jaencraft, portafolio web hecho con html, javascript y css puro, sin frameworks">
-    <meta name="keywords" content="html, css, javascript, portafolio, jaencraft, 3d, animaciones, jugar">
-    <meta name="robots" content="index, follow">
+    <meta name="author" content="Jaen Figueroa" />
+    <meta
+      name="description"
+      content="Jaencraft, portafolio web hecho con html, javascript y css puro, sin frameworks" />
+    <meta
+      name="keywords"
+      content="html, css, javascript, portafolio, jaencraft, 3d, animaciones, jugar" />
+    <meta name="robots" content="index, follow" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <title>JaenCraft</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./components/seccion2.css">
     <!-- JavaScript -->
     <script src="main.js" defer></script>
   </head>
@@ -19,77 +24,80 @@
     <header>
       <p id="desarrolladoPor">Desarrollado por <a href="https://github.com/jaenfigueroa" target="_blank" >Jaen Figueroa</a> &#169 2022</p>
     </header>
-    <main id="main">
-      <section id="contenedor-steve">
-        <!--STEVE ----------------------------------- -->
-        <div id="steve" >
-          <!-- cabeza -->
-          <div id="cabeza">
-            <div class="frente">
-              <div></div>
+    <main>
+      <section class="seccion1" id="seccion1">
+        <section id="contenedor-steve">
+          <!--STEVE ----------------------------------- -->
+          <div id="steve">
+            <!-- cabeza -->
+            <div id="cabeza">
+              <div class="frente">
+                <div></div>
+              </div>
+              <div class="izquierda">
+                <div></div>
+              </div>
+              <div class="detras"></div>
+              <div class="derecha">
+                <div></div>
+              </div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
             </div>
-            <div class="izquierda">
-              <div></div>
+            <!-- tronco -->
+            <div id="tronco">
+              <div class="frente">
+                <div></div>
+              </div>
+              <div class="izquierda"></div>
+              <div class="detras"></div>
+              <div class="derecha"></div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
             </div>
-            <div class="detras"></div>
-            <div class="derecha">
-              <div></div>
+            <!-- brazos -->
+            <div id="brazo-izquierdo">
+              <div class="frente"></div>
+              <div class="izquierda"></div>
+              <div class="detras"></div>
+              <div class="derecha"></div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
             </div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
-          </div>
-          <!-- tronco -->
-          <div id="tronco">
-            <div class="frente">
-              <div></div>
+            <div id="brazo-derecho">
+              <div class="frente"></div>
+              <div class="izquierda"></div>
+              <div class="detras"></div>
+              <div class="derecha"></div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
             </div>
-            <div class="izquierda"></div>
-            <div class="detras"></div>
-            <div class="derecha"></div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
+            <!-- piernas -->
+            <div id="pierna-izquierda">
+              <div class="frente"></div>
+              <div class="izquierda"></div>
+              <div class="detras"></div>
+              <div class="derecha"></div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
+            </div>
+            <div id="pierna-derecha">
+              <div class="frente"></div>
+              <div class="izquierda"></div>
+              <div class="detras"></div>
+              <div class="derecha"></div>
+              <div class="arriba"></div>
+              <div class="abajo"></div>
+            </div>
           </div>
-          <!-- brazos -->
-          <div id="brazo-izquierdo">
-            <div class="frente"></div>
-            <div class="izquierda"></div>
-            <div class="detras"></div>
-            <div class="derecha"></div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
+          <!--SOMBRA ----------------------------------- -->
+          <div id="contenedor-sombra">
+            <div id="sombra"></div>
           </div>
-          <div id="brazo-derecho">
-            <div class="frente"></div>
-            <div class="izquierda"></div>
-            <div class="detras"></div>
-            <div class="derecha"></div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
-          </div>
-          <!-- piernas -->
-          <div id="pierna-izquierda">
-            <div class="frente"></div>
-            <div class="izquierda"></div>
-            <div class="detras"></div>
-            <div class="derecha"></div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
-          </div>
-          <div id="pierna-derecha">
-            <div class="frente"></div>
-            <div class="izquierda"></div>
-            <div class="detras"></div>
-            <div class="derecha"></div>
-            <div class="arriba"></div>
-            <div class="abajo"></div>
-          </div>
-        </div>
-        <!--SOMBRA ----------------------------------- -->
-        <div id="contenedor-sombra">
-          <div id="sombra"></div>
-        </div>
-        <!--------------------------------------------- -->
+          <!--------------------------------------------- -->
+        </section>
       </section>
+      <section class="seccion2" id="seccion2"></section>
     </main>
     <!-- FOOTER -->
     <footer>
@@ -101,7 +109,7 @@
           <li>Para <b>saltar</b>, usa la <b>Barra de espacio</b>.</li>
         </ol>
       </article>
-      <section class="contenedor-brujula" >
+      <section class="contenedor-brujula">
         <div id="brujula">
           <span id="flecha"></span>
           <div class="contenedor-letras">

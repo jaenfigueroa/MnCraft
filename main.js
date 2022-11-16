@@ -123,7 +123,7 @@ window.addEventListener('keydown', (evento) => {
 
 //////////////////////////////////////////////
 
-const main = document.getElementById('main')
+const seccion1 = document.getElementById('seccion1')
 
 let ubicacionX = 0
 let ubicacionZ = 0
@@ -147,7 +147,7 @@ function obtenerCoordenadas(evento) {
 }
 
 function movermeEnElPlano() {
-  main.style.transform =
+  seccion1.style.transform =
     `rotateX(-25deg)
      rotateY(-35deg)
      translateX(${ubicacionX}px)

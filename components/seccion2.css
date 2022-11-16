@@ -1,0 +1,18 @@
+html,
+body {
+  overflow: inherit;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  /* overflow: inherit; */
+  display: none;
+  /* background-color: red; */
+}
+.seccion1 {
+  overflow: visible;
+}
+.seccion2 {
+  height: 100vh;
+  /* background-color: red; */
+}
