@@ -838,7 +838,7 @@ footer article li b {
   font-weight: lighter;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   footer {
     display: none;
   }
