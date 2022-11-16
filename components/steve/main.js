@@ -132,7 +132,7 @@ const main = document.getElementById('main')
 
 let ubicacionX = 0
 let ubicacionZ = 0
-const distancia = 30
+const distancia = 25
 
 window.addEventListener('keydown', obtenerCoordenadas)
 
