@@ -178,3 +178,18 @@ function movermeEnElPlano() {
 //   //asignar esos valores y hacer que rote
 //   main.style.transform = `rotateX(-${Y}deg) rotateY(${X}deg)`
 // }
+
+///MOVER LA BRUJULA/////////////////////////////
+const flecha = document.getElementById('flecha')
+
+window.addEventListener('keydown', (evento) => {
+  if (evento.code == 'KeyW') {
+    flecha.style.transform = 'rotateZ(-59deg)'
+  } else if (evento.code == 'KeyS') {
+    flecha.style.transform = 'rotateZ(119.5deg)'
+  } else if (evento.code == 'KeyA') {
+    flecha.style.transform = 'rotateZ(-149deg)'
+  } else if (evento.code == 'KeyD') {
+    flecha.style.transform = 'rotateZ(30deg)'
+  }
+})

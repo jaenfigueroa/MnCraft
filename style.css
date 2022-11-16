@@ -822,7 +822,7 @@ footer article span {
   margin-bottom: 10px;
   display: inline-block;
   text-transform: uppercase;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 }
 
 footer article li {
@@ -850,4 +850,91 @@ body {
 
 html {
   overflow: hidden;
+}
+
+/* ////////////////////////// */
+.contenedor-brujula {
+  background-color: rgba(255, 255, 255, 0);
+  /* background-color: rgba(255, 0, 0, 0.567); */
+  /* border-radius: 100%; */
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#brujula {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: radial-gradient(
+    rgb(45, 45, 45) 0% 5%,
+    transparent 5% 13%,
+    rgb(59, 59, 59) 13% 15%,
+    transparent 15% 40%,
+    rgb(62, 62, 62) 40% 68%,
+    transparent 68%
+  );
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#brujula #flecha {
+  background-color: green;
+  height: 5px;
+  width: 48%;
+  position: absolute;
+  background: linear-gradient(
+    to left,
+    rgb(35, 35, 35) 50%,
+    transparent 50%
+  );
+  transition: 0.3s;
+  transform: rotateZ(109.5deg);
+}
+
+#brujula #flecha:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  /* background-color: rgba(0, 0, 255, 0.423); */
+  position: absolute;
+  right: 0;
+  top: -7.5px;
+  transform: rotateZ(45deg);
+  border-top: 3.5px solid rgb(46, 46, 46);
+  border-right: 3.5px solid rgb(49, 49, 49);
+}
+
+.contenedor-letras {
+  /* background-color: rgba(0, 0, 255, 0.242); */
+  width: 69%;
+  height: 69%;
+  display: flex;
+  justify-content: space-between;
+  transform: rotateZ(-15deg);
+}
+.contenedor-letras div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contenedor-letras div p {
+  font-size: 2.4rem;
+  color: white;
+  /* background-color: rgb(34, 34, 34); */
+  /* box-shadow: 0 0 10px 5px rgb(34, 34, 34); */
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  /* transform: rotateZ(25deg); */
+  transform: rotateZ(42deg);
 }
