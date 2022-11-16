@@ -159,7 +159,7 @@ function movermeEnElPlano() {
 ///////////////////////////////////////////////////////////////////
 //CAMBIAR LA PERSPECTIVA DEL PERSONAJE/////////////////////////////
 
-// ///cuando se hace click ----------------------
+///cuando se hace click ----------------------
 // window.addEventListener('mousedown', () => {
 //   window.addEventListener('mousemove', girar)
 // })

@@ -874,10 +874,10 @@ html {
   background: radial-gradient(
     rgb(45, 45, 45) 0% 5%,
     transparent 5% 13%,
-    rgb(59, 59, 59) 13% 15%,
+    rgb(45, 45, 45) 13% 15%,
     transparent 15% 40%,
-    rgb(62, 62, 62) 40% 68%,
-    transparent 68%
+    rgb(98, 98, 98) 40%,
+    rgb(62, 62, 62) 68%
   );
   position: relative;
   display: flex;
@@ -893,7 +893,7 @@ html {
   position: absolute;
   background: linear-gradient(
     to left,
-    rgb(35, 35, 35) 50%,
+    rgb(45, 45, 45) 50%,
     transparent 50%
   );
   transition: 0.3s;
@@ -909,8 +909,8 @@ html {
   right: 0;
   top: -7.5px;
   transform: rotateZ(45deg);
-  border-top: 3.5px solid rgb(46, 46, 46);
-  border-right: 3.5px solid rgb(49, 49, 49);
+  border-top: 3.5px solid rgb(45, 45, 45);
+  border-right: 3.5px solid rgb(45, 45, 45);
 }
 
 .contenedor-letras {
@@ -934,6 +934,7 @@ html {
   height: 3rem;
   text-align: center;
   transform: rotateZ(42deg);
+  text-shadow: 4px 2px 2px rgb(25, 25, 25);
 }
 
 .coloreado {
