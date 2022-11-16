@@ -977,3 +977,11 @@ header {
   color: rgb(73, 62, 221);
   text-decoration: underline;
 }
+
+/* CONTADOR */
+#contador {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 100px);
+  z-index: -1;
+}
