@@ -792,6 +792,9 @@ main {
 }
 
 /* ///////////////////////////// */
+body {
+  overflow: hidden;
+}
 footer {
   background-color: transparent;
   width: 100%;
@@ -837,4 +840,8 @@ footer article li b {
 
 body {
   background: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
+}
+
+html {
+  overflow: hidden;
 }
