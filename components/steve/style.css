@@ -798,7 +798,8 @@ footer {
   position: absolute;
   bottom: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: space-between;
   padding: 16px;
 }
 
