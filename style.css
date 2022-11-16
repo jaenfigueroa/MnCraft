@@ -897,7 +897,7 @@ html {
     transparent 50%
   );
   transition: 0.3s;
-  transform: rotateZ(109.5deg);
+  transform: rotateZ(119.5deg);
 }
 
 #brujula #flecha:after {
@@ -929,12 +929,13 @@ html {
 .contenedor-letras div p {
   font-size: 2.4rem;
   color: white;
-  /* background-color: rgb(34, 34, 34); */
-  /* box-shadow: 0 0 10px 5px rgb(34, 34, 34); */
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
   text-align: center;
-  /* transform: rotateZ(25deg); */
   transform: rotateZ(42deg);
+}
+
+.coloreado {
+  color: rgb(65, 220, 255) !important;
 }
