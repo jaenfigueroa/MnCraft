@@ -1,8 +1,8 @@
 let temasFondo = 11
 let temaFondo = 3
 
-let temasPersonsaje = 2
-let temaPersonaje = 1
+let temasPersonsaje = 3
+let temaPersonaje = 2
 
 const body = document.getElementById('body')
 const personaje = document.getElementById('contenedor-steve')

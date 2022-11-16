@@ -104,5 +104,39 @@
   --piel-4: #44c8df;
 
   --ojos: #423095;
-  /* --ojos: #43be72; */
+}
+
+.personajeTema3 {
+  --cafe-0: #8b583e;
+  --cafe-1: #51331a;
+  --cafe-2: #402c1b;
+  --cafe-3: #371313;
+
+  --celeste-1: #59c0d5;
+  --celeste-2: #3ca8be;
+  --celeste-3: #369aad;
+
+  --celeste-1: rgb(234, 69, 102);
+  --celeste-2: rgb(214, 36, 72);
+  --celeste-3: crimson;
+
+  --azul-1: #a1a1a1;
+  --azul-2: #656565;
+  --azul-3: #444444;
+  --azul-4: #272727;
+
+  --gris-1: #4c4c4c;
+  --gris-2: #363636;
+  --gris-3: #282828;
+
+  --gris-1: #4e58de;
+  --gris-2: #212991;
+  --gris-3: #1b2278;
+
+  --piel-1: #51fcff;
+  --piel-2: #36cccc;
+  --piel-3: #3ab5bc;
+  --piel-4: #44c8df;
+
+  --ojos: #389530;
 }
