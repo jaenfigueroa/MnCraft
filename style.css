@@ -1,4 +1,4 @@
-@import url(colores.css);
+/* @import url(colores.css); */
 
 * {
   user-select: none;
@@ -848,14 +848,13 @@ footer article li b {
   }
 }
 
-body {
-  background: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
-}
-
 html {
   overflow: hidden;
 }
 
+body {
+  background: var(--fondo);
+}
 /* ////////////////////////// */
 .contenedor-brujula {
   background-color: rgba(255, 255, 255, 0);
@@ -966,6 +965,7 @@ header {
   padding: 16px;
   /* position: relative;
   z-index: 1; */
+  color: var(--letra);
 }
 
 #desarrolladoPor a {

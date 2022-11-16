@@ -1,0 +1,79 @@
+/* TEMAS///////////////////////////////////// */
+.fondoTema1 {
+  --fondo: linear-gradient(white, white);
+}
+.fondoTema2 {
+  --fondo: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
+}
+.fondoTema3 {
+  --fondo: linear-gradient(#d4c9ff, rgb(137, 145, 255));
+}
+.fondoTema4 {
+  --fondo: linear-gradient(hsl(181, 100%, 61%), #33ff59);
+}
+.fondoTema5 {
+  --fondo: linear-gradient(#000000, rgb(55, 55, 55));
+  --letra: rgb(163, 163, 163);
+}
+.fondoTema6 {
+  --fondo: linear-gradient(#ffffff, rgb(227, 144, 255));
+}
+
+.personajeTema1 {
+  --cafe-0: #8b583e;
+  --cafe-1: #51331a;
+  --cafe-2: #402c1b;
+  --cafe-2: #634429;
+  --cafe-3: #371313;
+
+  --celeste-1: #1fddd9;
+  --celeste-2: #92fdff;
+  --celeste-3: #106fa9;
+
+  --azul-1: #393983;
+  --azul-2: #2e2765;
+  --azul-3: #2f2672;
+  --azul-4: #2d2662;
+
+  --gris-1: #9c9c9c;
+  --gris-2: #4a4a4a;
+  --gris-3: #313131;
+
+  --piel-1: #f0c395;
+  --piel-2: #c6774d;
+  --piel-3: #774d25;
+  --piel-4: #ffb68f;
+
+  --ojos: #654092;
+}
+
+.personajeTema2 {
+  --cafe-0: #8b583e;
+  --cafe-1: #51331a;
+  --cafe-2: #402c1b;
+  --cafe-3: #371313;
+
+  --celeste-1: #59c0d5;
+  --celeste-2: #3ca8be;
+  --celeste-3: #369aad;
+
+  --celeste-1: #cb6ced;
+  --celeste-2: #8d52c1;
+  --celeste-3: #8544a5;
+
+  --azul-1: #33a648;
+  --azul-2: #1f7a24;
+  --azul-3: #226932;
+  --azul-4: #1d5728;
+
+  --gris-1: #4c4c4c;
+  --gris-2: #363636;
+  --gris-3: #282828;
+
+  --piel-1: #51fcff;
+  --piel-2: #36cccc;
+  --piel-3: #3ab5bc;
+  --piel-4: #44c8df;
+
+  --ojos: #423095;
+}
