@@ -964,6 +964,8 @@ header {
   display: flex;
   justify-content: right;
   padding: 16px;
+  /* position: relative;
+  z-index: 1; */
 }
 
 #desarrolladoPor a {
