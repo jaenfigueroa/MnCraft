@@ -812,7 +812,7 @@ footer article {
   padding-left: 45px;
   width: 480px;
   /* height: 126px; */
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 255, 255); */
   position: relative;
 }
 
@@ -833,4 +833,8 @@ footer article li b {
   footer {
     display: none;
   }
+}
+
+body {
+  background: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
 }
