@@ -971,7 +971,7 @@ header {
 #desarrolladoPor a {
   text-decoration: none;
   font-weight: bold;
-  color: rgb(0, 29, 172);
+  color: var(--letra2);
 }
 #desarrolladoPor a:hover {
   color: rgb(73, 62, 221);

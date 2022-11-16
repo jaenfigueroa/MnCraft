@@ -1,5 +1,5 @@
 let temasFondo = 5
-let temaFondo = 1
+let temaFondo = 3
 
 let temasPersonsaje = 2
 let temaPersonaje = 1
