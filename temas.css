@@ -24,6 +24,28 @@
   --fondo: linear-gradient(#ffffff, rgb(227, 144, 255));
   --letra2: rgb(0, 29, 172);
 }
+.fondoTema7 {
+  --fondo: linear-gradient(#eb4174, #ffe3e3);
+  --letra2: rgb(255, 255, 255);
+}
+.fondoTema8 {
+  --fondo: linear-gradient(#8a2eff, #cce0ff);
+  --letra2: rgb(255, 255, 255);
+}
+.fondoTema9 {
+  --fondo: linear-gradient(#1aa37a, #9dffbf);
+  --letra2: rgb(255, 255, 255);
+}
+.fondoTema10 {
+  --fondo: linear-gradient(#ffb648, #ff5d5d);
+  --letra2: rgb(255, 255, 255);
+  --letra2: rgb(10, 45, 220);
+}
+.fondoTema11 {
+  --fondo: linear-gradient(#62bdff, #3d10bd);
+  --letra2: rgb(255, 255, 255);
+  --letra2: rgb(0, 29, 172);
+}
 
 .personajeTema1 {
   --cafe-0: #8b583e;

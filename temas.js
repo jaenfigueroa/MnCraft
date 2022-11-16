@@ -1,4 +1,4 @@
-let temasFondo = 5
+let temasFondo = 11
 let temaFondo = 3
 
 let temasPersonsaje = 2
