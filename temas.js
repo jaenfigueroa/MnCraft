@@ -8,7 +8,7 @@ const body = document.getElementById('body')
 const personaje = document.getElementById('contenedor-steve')
 
 window.addEventListener('keypress', (evento) => {
-  if (evento.code == 'KeyK') {
+  if (evento.code == 'KeyL') {
 
     if (temaFondo > temasFondo) {
       temaFondo = 1
@@ -17,7 +17,7 @@ window.addEventListener('keypress', (evento) => {
     body.className = `fondoTema${temaFondo}`
     temaFondo++
 
-  } else if (evento.code == 'KeyL') {
+  } else if (evento.code == 'KeyK') {
 
     if (temaPersonaje > temasPersonsaje) {
       temaPersonaje = 1
