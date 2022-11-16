@@ -107,10 +107,10 @@
 }
 
 .personajeTema3 {
-  --cafe-0: #8b583e;
-  --cafe-1: #51331a;
-  --cafe-2: #402c1b;
-  --cafe-3: #371313;
+  --cafe-0: #8b8b8b;
+  --cafe-1: #5c5c5c;
+  --cafe-2: #3b3b3b;
+  --cafe-3: #343434;
 
   --celeste-1: #59c0d5;
   --celeste-2: #3ca8be;
@@ -133,10 +133,20 @@
   --gris-2: #212991;
   --gris-3: #1b2278;
 
+  --cafe-0: #8b583e;
+  --gris-1: #654226;
+  --gris-2: #3a2819;
+  --gris-3: #371313;
+
   --piel-1: #51fcff;
   --piel-2: #36cccc;
   --piel-3: #3ab5bc;
   --piel-4: #44c8df;
 
-  --ojos: #389530;
+  --piel-1: #faff97;
+  --piel-2: #e2e962;
+  --piel-3: #d1d83c;
+  --piel-4: #c7cf2d;
+
+  --ojos: #283fbc;
 }
