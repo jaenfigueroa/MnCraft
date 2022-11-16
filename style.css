@@ -939,3 +939,22 @@ html {
 .coloreado {
   color: rgb(65, 220, 255) !important;
 }
+
+/* HEADER */
+header {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 16px;
+}
+
+#desarrolladoPor a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 29, 172);
+}
+#desarrolladoPor a:hover {
+  color: rgb(73, 62, 221);
+  text-decoration: underline;
+}
