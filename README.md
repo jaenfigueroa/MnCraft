@@ -8,12 +8,12 @@
 
 https://jaenfigueroa.github.io/JaenCraft/
 
-### 🚀 Contributions
+### 📌 Contributions
 
 Contributions are always welcome and recommended! Here is how:
 - Fork the repository
 <div >
-  <img src="./assets/fork.jpg" style="width: 70%" />
+  <img src="./assets/fork.jpg" style="width: 50%" />
 </div>
 - Clone to your machine 
 - Create a new branch 
