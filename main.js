@@ -77,9 +77,11 @@ window.addEventListener('keydown', (evento) => {
 })
 
 window.addEventListener('keyup', (evento) => {
-  if (evento.code == 'KeyW' || evento.code == 'KeyS' || evento.code == 'KeyA' || evento.code == 'KeyD') {
-    parar()
-  }
+  // if (evento.code == 'KeyW' || evento.code == 'KeyS' || evento.code == 'KeyA' || evento.code == 'KeyD') {
+  //   parar()
+  // }
+  parar()
+
 })
 
 ////////////////////////////////////////////////
@@ -207,4 +209,29 @@ window.addEventListener('keyup', (evento) => {
   letraS.classList.remove('coloreado')
   letraA.classList.remove('coloreado')
   letraD.classList.remove('coloreado')
+})
+
+
+///////////////////////////////////////////////////////////////////
+/* EMOTE EPICO//////////////////////////////////////////////////// */
+window.addEventListener('keydown', (evento) => {
+  if (evento.code == 'KeyE') {
+    cabeza.classList.add('cabeza--epico')
+    tronco.classList.add('tronco--epico')
+    brazoIzquierdo.classList.add('brazo-izquierdo--epico')
+    brazoDerecho.classList.add('brazo-derecho--epico')
+    piernaIzquierda.classList.add('pierna-izquierda--epico')
+    piernaDerecha.classList.add('pierna-derecha--epico')
+  }
+})
+
+window.addEventListener('keyup', (evento) => {
+  if (evento.code == 'KeyE') {
+    cabeza.classList.remove('cabeza--epico')
+    tronco.classList.remove('tronco--epico')
+    brazoIzquierdo.classList.remove('brazo-izquierdo--epico')
+    brazoDerecho.classList.remove('brazo-derecho--epico')
+    piernaIzquierda.classList.remove('pierna-izquierda--epico')
+    piernaDerecha.classList.remove('pierna-derecha--epico')
+  }
 })
