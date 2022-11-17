@@ -18,7 +18,7 @@ Contributions are always welcome and recommended! Here is how:
   
 - Create a new branch
 
-  `git branch -b NAME`
+  `git checkout -b NAME`
 
 - Make your changes
 - Create a pull requets
