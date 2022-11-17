@@ -995,6 +995,7 @@ header {
 }
 
 .tronco--epico {
+  transform: translateX(40px) translateY(80px) translateZ(20px) !important;
   animation: none !important;
 }
 

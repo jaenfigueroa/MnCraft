@@ -215,7 +215,7 @@ window.addEventListener('keyup', (evento) => {
 ///////////////////////////////////////////////////////////////////
 /* EMOTE EPICO//////////////////////////////////////////////////// */
 window.addEventListener('keydown', (evento) => {
-  if (evento.code == 'KeyE') {
+  if (evento.code == 'KeyG') {
     cabeza.classList.add('cabeza--epico')
     tronco.classList.add('tronco--epico')
     brazoIzquierdo.classList.add('brazo-izquierdo--epico')
@@ -226,7 +226,7 @@ window.addEventListener('keydown', (evento) => {
 })
 
 window.addEventListener('keyup', (evento) => {
-  if (evento.code == 'KeyE') {
+  if (evento.code == 'KeyG') {
     cabeza.classList.remove('cabeza--epico')
     tronco.classList.remove('tronco--epico')
     brazoIzquierdo.classList.remove('brazo-izquierdo--epico')
