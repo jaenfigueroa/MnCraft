@@ -5,7 +5,7 @@
 </div>
 
 ## 📌 Tecnologias
-Esta página web fue creada con:
+Esta proyecto fue creado con:
 - HTML
 - CSS
 - JavaScript
