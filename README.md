@@ -1,4 +1,4 @@
-<!-- ## 📌 Vista Previa
+ ## 📌 Vista Previa
 
 <div >
   <img src="./assets/preview2.gif" align="center" style="width: 80%" />
@@ -15,10 +15,10 @@ Puedes probar el proyecto en el siguiente [link](https://jaenfigueroa.github.io/
 
 
 ## 📌 Curso en YouTube
-Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita, que estará disponible pronto en el canal de [YouTube](https://www.youtube.com/@JaenDeveloper). -->
+Para crear este proyecto paso a paso te invito a ver el tutorial, que estará disponible pronto en el canal de [YouTube](https://www.youtube.com/@JaenDeveloper). 
 
 
-## 📌 Preview
+<!-- ## 📌 Preview
 
 <div >
   <img src="./assets/preview2.gif" align="center" style="width: 80%" />
@@ -35,4 +35,4 @@ You can test the project at the following [link](https://jaenfigueroa.github.io/
 
 
 ## 📌 YouTube
-To create this project step by step I invite you to watch the tutorial, which will be available soon on the [YouTube channel](https://www.youtube.com/@JaenDeveloper).
+To create this project step by step I invite you to watch the tutorial, which will be available soon on the [YouTube channel](https://www.youtube.com/@JaenDeveloper). -->
