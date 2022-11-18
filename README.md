@@ -6,9 +6,9 @@
 
 ## 📌 Tecnologías
 Este proyecto fue creado con:
-- HTML
-- CSS
-- JavaScript
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## 📌 Sitio Web
 Puedes probar el proyecto en el siguiente [link](https://jaenfigueroa.github.io/JaenCraft/).
