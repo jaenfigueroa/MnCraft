@@ -1,14 +1,14 @@
-### 📌 Preview
+## 📌 Preview
 
 <div >
   <img src="./assets/preview.gif" align="center" style="width: 80%" />
 </div>
 
-### 📌 Website
+## 📌 Website
 
 https://jaenfigueroa.github.io/JaenCraft/
 
-### 📌 Contributions
+## 📌 Contributions
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="400">
 
 
