@@ -6,7 +6,7 @@
 
 ## 📌 Website
 
-https://jaenfigueroa.github.io/JaenCraft/
+[Click here](http://https://jaenfigueroa.github.io/JaenCraft/ "Click here")
 
 ## 📌 Contributions
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="350">
