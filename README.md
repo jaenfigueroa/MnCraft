@@ -4,6 +4,12 @@
   <img src="./assets/preview2.gif" align="center" style="width: 80%" />
 </div>
 
+## 📌 Tecnologias
+Esta página web fue creada con:
+- HTML
+- CSS
+- JavaScript
+
 ## 📌 Sitio Web
 
 https://jaenfigueroa.github.io/JaenCraft/
