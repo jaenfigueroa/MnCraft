@@ -1,5 +1,7 @@
 # JaenCraft
 
+Minecraft Game made with pure css and javascript.
+
 ## 📌 Preview
 
 <div >
