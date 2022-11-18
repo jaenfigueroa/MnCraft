@@ -23,19 +23,5 @@ Contributions are always **welcome and recommended**! Here is how:
   `git checkout -b NAME`
 
 - Make your changes
-- Create a pull requets" width="230">
-
-
-Contributions are always **welcome and recommended**! Here is how:
-- Fork the repository ([here is the guide](https://docs.github.com/es/get-started/quickstart/fork-a-repo))
-- Clone to your machine 
-
-  `git clone https://github.com/jaenfigueroa/JaenCraft.git`
-  
-- Create a new branch
-
-  `git checkout -b NAME`
-
-- Make your changes
 - Create a pull requets
 
