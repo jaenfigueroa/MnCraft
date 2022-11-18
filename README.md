@@ -4,7 +4,7 @@
   <img src="./assets/preview2.gif" align="center" style="width: 80%" />
 </div>
 
-## 📌 Tecnologias
+## 📌 Tecnologías
 Esta proyecto fue creado con:
 - HTML
 - CSS
