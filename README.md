@@ -34,5 +34,5 @@ This project was created with:
 You can test the project at the following [link](https://jaenfigueroa.github.io/JaenCraft/).
 
 
-## 📌 YouTube Curse
-To create this project step by step I invite you to take the free course, which will be available soon on the [YouTube channel](https://www.youtube.com/@JaenDeveloper).
+## 📌 YouTube
+To create this project step by step I invite you to watch the tutorial, which will be available soon on the [YouTube channel](https://www.youtube.com/@JaenDeveloper).
