@@ -4,15 +4,15 @@
   <img src="./assets/preview2.gif" align="center" style="width: 80%" />
 </div>
 
-## 📌 Website
-
-You can test and interact with the project at the following [link](https://jaenfigueroa.github.io/JaenCraft/).
-
 ## 📌 Technologies
 This project was created with:
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+## 📌 Website
+
+You can test and interact with the project at the following [link](https://jaenfigueroa.github.io/JaenCraft/).
 
 ## 📌 Contributions
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="340">
