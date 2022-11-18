@@ -1,10 +1,10 @@
-## 📌 Preview
+## 📌 Vista Previa
 
 <div >
   <img src="./assets/preview.gif" align="center" style="width: 80%" />
 </div>
 
-## 📌 Website
+## 📌 Sitio Web
 
 https://jaenfigueroa.github.io/JaenCraft/
 
