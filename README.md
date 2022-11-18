@@ -9,7 +9,7 @@
 https://jaenfigueroa.github.io/JaenCraft/
 
 ## 📌 Contributions
-<img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="400">
+<img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="350">
 
 
 Contributions are always **welcome and recommended**! Here is how:
