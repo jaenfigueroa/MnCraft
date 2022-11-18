@@ -1,8 +1,4 @@
-<div align="center">
-
 # JaenCraft
-
-</div>
 
 ## 📌 Preview
 
