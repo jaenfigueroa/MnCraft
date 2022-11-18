@@ -8,5 +8,5 @@
 
 https://jaenfigueroa.github.io/JaenCraft/
 
-## 📌 Curso en YouTube (en Español)
-Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita en el canal de YouTube de [Jaen](https://www.youtube.com/@JaenDeveloper)
+## 📌 Curso en YouTube
+Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita y en español, en el canal de [YouTube](https://www.youtube.com/@JaenDeveloper)
