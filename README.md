@@ -11,6 +11,7 @@ Minecraft Game made with pure css and javascript.
 <img src="https://img.shields.io/github/issues/jaenfigueroa/JaenCraft?style">
 </div>
 
+
 ## Preview
 
 <div >
