@@ -2,6 +2,12 @@
 
 Minecraft Game made with pure css and javascript.
 
+<img src="https://img.shields.io/github/license/jaenfigueroa/JaenCraft?style">
+<img src="https://img.shields.io/github/stars/jaenfigueroa/JaenCraft?style">
+<img src="https://img.shields.io/github/forks/jaenfigueroa/JaenCraft?style">
+<img src="https://img.shields.io/github/issues-pr/jaenfigueroa/JaenCraft?style">
+<img src="https://img.shields.io/github/issues/jaenfigueroa/JaenCraft?style">
+
 ## Preview
 
 <div >
