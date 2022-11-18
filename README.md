@@ -10,7 +10,7 @@
 
 
 ## 📌 Contributions
-<img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="300">
+<img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="330">
 
 
 Contributions are always **welcome and recommended**! Here is how:
