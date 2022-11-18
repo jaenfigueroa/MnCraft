@@ -6,7 +6,7 @@
 
 ## 📌 Website
 
-- [Click here](https://jaenfigueroa.github.io/JaenCraft/)
+https://jaenfigueroa.github.io/JaenCraft/
 
 
 
