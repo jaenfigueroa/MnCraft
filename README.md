@@ -15,4 +15,4 @@ Puedes probar el proyecto en el siguiente [link](https://jaenfigueroa.github.io/
 
 
 ## 📌 Curso en YouTube
-Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita y en español, que estará disponible pronto en el canal de [YouTube](https://www.youtube.com/@JaenDeveloper).
+Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita, que estará disponible pronto en el canal de [YouTube](https://www.youtube.com/@JaenDeveloper).
