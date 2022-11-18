@@ -20,7 +20,7 @@ Contributions are always **welcome and recommended**! Here is how:
   
 - Create a new branch
 
-  `git checkout -b NAME_NEW_BRANCH`
+  `git checkout -b NEW_BRANCH_NAME`
 
 - Make your changes
 - Create a pull requets
