@@ -11,7 +11,7 @@ Este proyecto fue creado con:
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## 📌 Sitio Web
-Puedes probar el proyecto en el siguiente [link](https://jaenfigueroa.github.io/JaenCraft/).
+Puedes probar e interactuar el proyecto en el siguiente [link](https://jaenfigueroa.github.io/JaenCraft/).
 
 
 ## 📌 Curso en YouTube
