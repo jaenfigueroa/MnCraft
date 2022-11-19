@@ -28,7 +28,7 @@ This project was created with:
 
 You can test and interact with the project at the following [link](https://jaenfigueroa.github.io/JaenCraft/).
 
-## 💻 Contributions
+<!-- ## 💻 Contributions
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="340">
 
 
@@ -48,4 +48,4 @@ Contributions are always **welcome and recommended**! Here is how:
 ## ❤ Supporting the project
 A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet.
 
-Thanks!
+Thanks! -->
