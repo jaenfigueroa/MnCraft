@@ -51,7 +51,7 @@ Contributions are always **welcome**! Here is how:
 - Make your changes
 - Create a pull requets
 
-## ❤ Supporting the project
+<-- ## ❤ Supporting the project
 A simple star to this project repo is enough to keep me motivated on this project for days. <!-- If you find your self very much excited with this project let me know with a tweet. -->
 
-Thanks!
+Thanks! -->
