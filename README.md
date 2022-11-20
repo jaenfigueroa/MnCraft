@@ -38,7 +38,7 @@ You can test and interact with the project at the following [link](https://jaenf
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="340">
 
 
-Contributions are always **welcome and recommended**! Here is how:
+Contributions are always **welcome**! Here is how:
 - Fork the repository ([here is the guide](https://docs.github.com/es/get-started/quickstart/fork-a-repo))
 - Clone to your machine 
 
