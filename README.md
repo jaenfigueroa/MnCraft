@@ -34,7 +34,7 @@ This project was created with:
 
 You can test and interact with the project at the following [link](https://jaenfigueroa.github.io/JaenCraft/).
 
- ## 💻 Contributions
+<!-- ## 💻 Contributions
 <img align='right' src="https://octodex.github.com/images/forktocat.jpg" width="340">
 
 
@@ -49,5 +49,5 @@ Contributions are always **welcome**! Here is how:
   `git checkout -b NEW_BRANCH_NAME`
 
 - Make your changes
-- Create a pull requets
+- Create a pull requets -->
 
