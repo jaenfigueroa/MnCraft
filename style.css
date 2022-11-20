@@ -846,6 +846,11 @@ footer article li b {
   #movimientos {
     display: none;
   }
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
 }
 
 html {
@@ -961,10 +966,8 @@ header {
   /* background-color: red; */
   width: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   padding: 16px;
-  /* position: relative;
-  z-index: 1; */
   color: var(--letra);
 }
 
@@ -976,14 +979,6 @@ header {
 #desarrolladoPor a:hover {
   color: rgb(73, 62, 221);
   text-decoration: underline;
-}
-
-/* CONTADOR */
-#contador {
-  position: absolute;
-  top: calc(50% - 10px);
-  left: calc(50% - 100px);
-  z-index: -1;
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
