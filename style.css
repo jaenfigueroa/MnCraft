@@ -971,6 +971,9 @@ header {
   color: var(--letra);
 }
 
+#contadorVisitas {
+  height: 25px;
+}
 #desarrolladoPor a {
   text-decoration: none;
   font-weight: bold;
