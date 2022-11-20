@@ -19,7 +19,7 @@ Minecraft Game made with pure css and javascript.
   
   <br>
   
-  <img src="./assets/captura.jpg" align="center" style="width: 80%" />
+  <img src="./assets/captura.jpg" align="center" style="width: 100%" />
 </div>
 
 ## 📌 Technologies
