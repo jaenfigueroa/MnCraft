@@ -1,4 +1,4 @@
-# JaenCraft
+# MnCraft
 
 Minecraft Game made with pure css and javascript.
 
