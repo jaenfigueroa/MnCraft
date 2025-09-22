@@ -8,10 +8,12 @@
 @import './posicionamiento/pierna-derecha.css';
 @import './posicionamiento/pierna-izquierda.css';
 
+@import './coloreado/brazo-derecho.css';
+@import './coloreado/brazo-izquierdo.css';
+@import './coloreado/pierna-derecha.css';
+@import './coloreado/pierna-izquierda.css';
 @import './coloreado/cabeza.css';
 @import './coloreado/tronco.css';
-@import './coloreado/brazos.css';
-@import './coloreado/piernas.css';
 @import './coloreado/cara-delante.css';
 @import './coloreado/cara-izquierda.css';
 @import './coloreado/cara-derecha.css';

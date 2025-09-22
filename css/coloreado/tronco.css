@@ -1,75 +1,125 @@
-#tronco .frente,
-#tronco .detras {
-  background: linear-gradient(var(--celeste-1) 79.5%, var(--azul-1) 79.5%);
-}
+#tronco {
+  .frente {
+    background:
+      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #4E3320 20px 30px, #724A2E 30px 40px, #4F3220 40px 50px, #4F3220 50px 60px, #167672 60px 70px, #167672 70px 80px),
+      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #65432B 30px 40px, #65432B 40px 50px, #19908F 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1DABA9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1A9A9A 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB3B2 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px, #1EBCB9 40px 50px, #1DB3B2 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #372992 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #422EAF 50px 60px, #372992 60px 70px, #1A9A9A 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px,
+      0px 80px,
+      0px 90px,
+      0px 100px,
+      0px 110px;
+    background-repeat: no-repeat;
+  }
 
-#tronco .arriba {
-  background: var(--celeste-2);
-}
+  .detras {
+    background:
+      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px, #135F5B 40px 50px, #135F5B 50px 60px, #167672 60px 70px, #167672 70px 80px),
+      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px, #19908F 40px 50px, #19908F 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1DABA9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1A9A9A 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB3B2 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px, #1EBCB9 40px 50px, #1DB3B2 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #372992 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #422EAF 50px 60px, #372992 60px 70px, #1A9A9A 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px,
+      0px 80px,
+      0px 90px,
+      0px 100px,
+      0px 110px;
+    background-repeat: no-repeat;
+  }
 
-#tronco .derecha,
-#tronco .izquierda {
-  background: linear-gradient(var(--celeste-3) 79.5%, var(--azul-2) 79.5%);
-}
+  .derecha {
+    background:
+      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px),
+      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px,
+      0px 80px,
+      0px 90px,
+      0px 100px,
+      0px 110px;
+    background-repeat: no-repeat;
+  }
 
-#tronco .abajo {
-  background: var(--azul-1);
-}
-
-/* CUELLO */
-#tronco .frente::after {
-  content: '';
-  width: 40px;
-  height: 12.5px;
-  background-color: var(--piel-1);
-  top: 0;
-  left: 20px;
-  position: absolute;
-}
-
-#tronco .frente::before {
-  content: '';
-  width: 20px;
-  height: 12.5px;
-  background-color: var(--piel-1);
-  top: 10px;
-  left: 30px;
-  position: absolute;
-}
-
-/* PARTE BAJA DEL TRONCO FRONTAL */
-#tronco .frente div {
-  width: 100%;
-  height: 100%;
-}
-
-#tronco .frente div::after {
-  content: '';
-  width: 25px;
-  height: 12.5px;
-  background-color: var(--celeste-1);
-  bottom: 12.5px;
-  right: 0;
-  position: absolute;
-}
-
-#tronco .frente div::before {
-  content: '';
-  width: 12.5px;
-  height: 12.5px;
-  background-color: var(--celeste-1);
-  bottom: 0px;
-  right: 0;
-  position: absolute;
-}
-
-/* PARTE BAJA DEL TRONCO IZQUIERDA */
-#tronco .izquierda:after {
-  content: '';
-  width: 12.5px;
-  height: 12.5px;
-  background-color: var(--celeste-3);
-  position: absolute;
-  bottom: 12.5px;
-  left: 0;
+  .izquierda {
+    background:
+      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px),
+      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
+      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px),
+      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px,
+      0px 80px,
+      0px 90px,
+      0px 100px,
+      0px 110px;
+    background-repeat: no-repeat;
+  }
 }

@@ -1,25 +1,139 @@
 #cabeza {
-  .arriba {
-    background-color: var(--cafe-2);
+  .frente {
+    background:
+      linear-gradient(90deg, #302211 0 10px, #2C2010 10px 20px, #312213 20px 30px, #2A1F10 30px 40px, #261B0D 40px 50px, #291D0F 50px 60px, #2F2212 60px 70px, #2E2112 70px 80px),
+      linear-gradient(90deg, #2B2010 0 10px, #2B2010 10px 20px, #2B2010 20px 30px, #362714 30px 40px, #462E16 40px 50px, #452F19 50px 60px, #2B2010 60px 70px, #2B2010 70px 80px),
+      linear-gradient(90deg, #2C2010 0 10px, #AF8363 10px 20px, #BB8A6A 20px 30px, #C59077 30px 40px, #BA876A 40px 50px, #BC8B6D 50px 60px, #AE8363 60px 70px, #2C2010 70px 80px),
+      linear-gradient(90deg, #9D745B 0 10px, #AB7C63 10px 20px, #A1765D 20px 30px, #A67A65 30px 40px, #936D55 40px 50px, #B8856B 50px 60px, #AB7C63 60px 70px, #9D745B 70px 80px),
+      linear-gradient(90deg, #A77A62 0 10px, #FFFFFF 10px 20px, #3B286C 20px 30px, #AF755F 30px 40px, #B58269 40px 50px, #3B286C 50px 60px, #FFFFFF 60px 70px, #A77A62 70px 80px),
+      linear-gradient(90deg, #8B593E 0 10px, #A87258 10px 20px, #AB7866 20px 30px, #4E2E23 30px 40px, #4E2E23 40px 50px, #AB7866 50px 60px, #A87258 60px 70px, #8B593E 70px 80px),
+      linear-gradient(90deg, #775035 0 10px, #865A3A 10px 20px, #291E10 20px 30px, #60362B 30px 40px, #60362B 40px 50px, #291E10 50px 60px, #865A3A 60px 70px, #775035 70px 80px),
+      linear-gradient(90deg, #704A30 0 10px, #775036 10px 20px, #291E10 20px 30px, #291E10 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #775036 60px 70px, #704A30 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
   }
 
   .detras {
-    background: linear-gradient(var(--cafe-1) 87.5%, var(--piel-1) 87.5%);
-  }
-
-  .abajo {
-    background: linear-gradient(var(--cafe-3) 50%, var(--piel-3) 50%);
-  }
-
-  .frente {
-    background: linear-gradient(var(--cafe-1) 26%, var(--piel-1) 26%);
+    background:
+      linear-gradient(90deg, #302211 0 10px, #2C2010 10px 20px, #312213 20px 30px, #2A1F10 30px 40px, #261B0D 40px 50px, #291D0F 50px 60px, #2F2212 60px 70px, #2E2112 70px 80px),
+      linear-gradient(90deg, #2B2010 0 10px, #2B2010 10px 20px, #2B2010 20px 30px, #362714 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #291E10 60px 70px, #2B2010 70px 80px),
+      linear-gradient(90deg, #2C2010 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #2C2010 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #291E10 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #3A281B 0 10px, #473323 10px 20px, #4F3D2C 20px 30px, #54402E 30px 40px, #433221 40px 50px, #543E2C 50px 60px, #4B3321 60px 70px, #4B3321 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
   }
 
   .derecha {
-    background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
+    background:
+      linear-gradient(90deg, #302211 0 10px, #2C2010 10px 20px, #312213 20px 30px, #2A1F10 30px 40px, #261B0D 40px 50px, #291D0F 50px 60px, #2F2212 60px 70px, #2E2112 70px 80px),
+      linear-gradient(90deg, #2B2010 0 10px, #2B2010 10px 20px, #2B2010 20px 30px, #362714 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #291E10 60px 70px, #2B2010 70px 80px),
+      linear-gradient(90deg, #2C2010 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #2C2010 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #553928 10px 20px, #4C3524 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #4C3623 0 10px, #553928 10px 20px, #4C3524 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #3A281B 0 10px, #473323 10px 20px, #4F3D2C 20px 30px, #54402E 30px 40px, #433221 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #3A281B 0 10px, #473323 10px 20px, #4F3D2C 20px 30px, #54402E 30px 40px, #433221 40px 50px, #543E2C 50px 60px, #4B3321 60px 70px, #4B3321 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
   }
 
   .izquierda {
-    background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
+    background:
+      linear-gradient(90deg, #302211 0 10px, #2C2010 10px 20px, #312213 20px 30px, #2A1F10 30px 40px, #261B0D 40px 50px, #291D0F 50px 60px, #2F2212 60px 70px, #2E2112 70px 80px),
+      linear-gradient(90deg, #2B2010 0 10px, #2B2010 10px 20px, #2B2010 20px 30px, #362714 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #291E10 60px 70px, #2B2010 70px 80px),
+      linear-gradient(90deg, #2C2010 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #2C2010 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #553928 10px 20px, #4C3524 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #4C3623 0 10px, #553928 10px 20px, #4C3524 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #3A281B 0 10px, #473323 10px 20px, #4F3D2C 20px 30px, #54402E 30px 40px, #433221 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #3A281B 0 10px, #473323 10px 20px, #4F3D2C 20px 30px, #54402E 30px 40px, #433221 40px 50px, #543E2C 50px 60px, #4B3321 60px 70px, #4B3321 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
+  }
+
+  .arriba {
+    background:
+      linear-gradient(90deg, #302211 0 10px, #2C2010 10px 20px, #312213 20px 30px, #2A1F10 30px 40px, #261B0D 40px 50px, #291D0F 50px 60px, #2F2212 60px 70px, #2E2112 70px 80px),
+      linear-gradient(90deg, #2B2010 0 10px, #2B2010 10px 20px, #2B2010 20px 30px, #362714 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #291E10 60px 70px, #2B2010 70px 80px),
+      linear-gradient(90deg, #2C2010 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #2C2010 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #302211 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #302211 20px 30px, #302211 30px 40px, #302211 40px 50px, #291E10 50px 60px, #302211 60px 70px, #302211 70px 80px),
+      linear-gradient(90deg, #302211 0 10px, #302211 10px 20px, #291E10 20px 30px, #291E10 30px 40px, #291E10 40px 50px, #291E10 50px 60px, #302211 60px 70px, #302211 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
+  }
+
+  .abajo {
+    background:
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
+      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px);
+    background-size: 80px 10px;
+    background-position:
+      0px 0px,
+      0px 10px,
+      0px 20px,
+      0px 30px,
+      0px 40px,
+      0px 50px,
+      0px 60px,
+      0px 70px;
+    background-repeat: no-repeat;
   }
 }
