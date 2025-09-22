@@ -11,7 +11,7 @@
   transition: 0.4s;
 
   &.moverse {
-    animation: girarBrazoIzquierdo 1s linear infinite;
+    animation: girarBrazoIzquierdo 0.5s linear infinite alternate;
   }
 
   .frente {

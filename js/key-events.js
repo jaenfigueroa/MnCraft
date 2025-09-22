@@ -33,10 +33,6 @@ window.addEventListener("keydown", (e) => {
       moverExtremidades();
       saltar();
       animarSombra();
-
-      setTimeout(() => {
-        dejarMoverExtremidades();
-      }, 800);
       break;
     // cambios de tema
     case "KeyL":
@@ -62,6 +58,10 @@ window.addEventListener("keyup", (e) => {
       break;
     case "KeyG":
       detenerDap();
+      break;
+    case "Space":
+      dejarDeSaltar();
+      dejarMoverExtremidades();
       break;
   }
 });

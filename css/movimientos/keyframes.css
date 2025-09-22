@@ -3,12 +3,8 @@
     transform: translateX(40px) translateZ(40px);
   }
 
-  50% {
-    transform: translateX(40px) translateZ(40px) rotateX(0deg);
-  }
-
   100% {
-    transform: translateX(40px) translateZ(40px);
+    transform: translateX(40px) translateZ(40px) rotateX(0deg);
   }
 }
 
@@ -17,12 +13,8 @@
     transform: rotateX(-25deg) translateX(120px) translateY(80px) translateZ(20px);
   }
 
-  50% {
-    transform: rotateX(25deg) translateX(120px) translateY(80px) translateZ(20px);
-  }
-
   100% {
-    transform: rotateX(-25deg) translateX(120px) translateY(80px) translateZ(20px);
+    transform: rotateX(25deg) translateX(120px) translateY(80px) translateZ(20px);
   }
 }
 
@@ -31,12 +23,8 @@
     transform: rotateX(25deg) translateY(80px) translateZ(20px);
   }
 
-  50% {
-    transform: rotateX(-25deg) translateY(80px) translateZ(20px);
-  }
-
   100% {
-    transform: rotateX(25deg) translateY(80px) translateZ(20px);
+    transform: rotateX(-25deg) translateY(80px) translateZ(20px);
   }
 }
 
@@ -45,12 +33,8 @@
     transform: rotateX(25deg) translateX(80px) translateY(40px) translateZ(20px);
   }
 
-  50% {
-    transform: rotateX(-25deg) translateX(80px) translateY(40px) translateZ(20px);
-  }
-
   100% {
-    transform: rotateX(25deg) translateX(80px) translateY(40px) translateZ(20px);
+    transform: rotateX(-25deg) translateX(80px) translateY(40px) translateZ(20px);
   }
 }
 
@@ -59,11 +43,8 @@
     transform: rotateX(-25deg) translateX(40px) translateY(40px) translateZ(20px);
   }
 
-  50% {
-    transform: rotateX(25deg) translateX(40px) translateY(40px) translateZ(20px);
-  }
 
   100% {
-    transform: rotateX(-25deg) translateX(40px) translateY(40px) translateZ(20px);
+    transform: rotateX(25deg) translateX(40px) translateY(40px) translateZ(20px);
   }
 }

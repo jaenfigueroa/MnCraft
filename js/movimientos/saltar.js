@@ -1,7 +1,18 @@
 const saltar = () => {
-  steve.style.transform = `translateY(-${ALTURA_SALTO}px) `;
+  if (validarAccionEnCurso("saltar")) return;
+  agregarAccionEnCurso("saltar");
 
-  setTimeout(() => {
-    steve.style.transform = `translateY(0px) `;
-  }, 400);
+  steve.classList.remove("steve--aterrizando");
+  steve.classList.add("steve--saltando");
+
+  console.log("saltar");
+};
+
+const dejarDeSaltar = () => {
+  steve.classList.remove("steve--saltando");
+  steve.classList.add("steve--aterrizando");
+
+  eliminarAccionEnCurso("saltar");
+
+  console.log("aterrizar");
 };

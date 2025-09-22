@@ -12,7 +12,7 @@
   transition: 0.4s;
 
   &.moverse {
-    animation: girarPiernaIzquierda 1s linear infinite;
+    animation: girarPiernaIzquierda 0.5s linear infinite alternate;
   }
 
   .frente {

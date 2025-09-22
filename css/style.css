@@ -18,6 +18,7 @@
 @import './movimientos/keyframes.css';
 @import './movimientos/agachado.css';
 @import './movimientos/dap.css';
+@import './movimientos/saltando.css';
 
 @import './extras/sombra.css';
 @import './extras/brujula.css';

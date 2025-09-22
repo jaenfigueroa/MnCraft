@@ -11,12 +11,3 @@ const brazoIzquierdo = document.getElementById("brazo-izquierdo");
 const brazoDerecho = document.getElementById("brazo-derecho");
 const piernaIzquierda = document.getElementById("pierna-izquierda");
 const piernaDerecha = document.getElementById("pierna-derecha");
-
-const todos = [
-  cabeza,
-  tronco,
-  brazoIzquierdo,
-  brazoDerecho,
-  piernaIzquierda,
-  piernaDerecha,
-];

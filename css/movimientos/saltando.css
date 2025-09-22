@@ -1,0 +1,27 @@
+.steve--saltando {
+  animation: saltar 0.4s ease infinite alternate;
+}
+
+.steve--aterrizando {
+  animation: aterrizando 0.4s ease forwards;
+}
+
+@keyframes saltar {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-120px);
+  }
+}
+
+@keyframes aterrizando {
+  0% {
+    transform: translateY(-120px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
