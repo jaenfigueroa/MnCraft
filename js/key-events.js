@@ -3,22 +3,26 @@ window.addEventListener("keydown", (e) => {
   switch (e.code) {
     // movimientos en el plano
     case "KeyW":
-      moverExtremidades();
+      moverBrazos();
+      moverPiernas();
       girar("NORTE");
       avanzar("NORTE");
       break;
     case "KeyA":
-      moverExtremidades();
+      moverBrazos();
+      moverPiernas();
       girar("OESTE");
       avanzar("OESTE");
       break;
     case "KeyS":
-      moverExtremidades();
+      moverBrazos();
+      moverPiernas();
       girar("SUR");
       avanzar("SUR");
       break;
     case "KeyD":
-      moverExtremidades();
+      moverBrazos();
+      moverPiernas();
       girar("ESTE");
       avanzar("ESTE");
       break;
@@ -30,7 +34,8 @@ window.addEventListener("keydown", (e) => {
       iniciarDap();
       break;
     case "Space":
-      moverExtremidades();
+      moverBrazos();
+      moverPiernas();
       saltar();
       animarSombra();
       break;
@@ -51,7 +56,9 @@ window.addEventListener("keyup", (e) => {
     case "KeyA":
     case "KeyS":
     case "KeyD":
-      dejarMoverExtremidades();
+      dejarMoverBrazos();
+      dejarMoverPiernas();
+      // detenerAvance();
       break;
     case "ShiftLeft":
       dejarDeAgacharse();
@@ -62,7 +69,8 @@ window.addEventListener("keyup", (e) => {
     case "Space":
       dejarDeSaltar();
       dejarDeAnimarSombra();
-      dejarMoverExtremidades();
+      dejarMoverBrazos();
+      dejarMoverPiernas();
       break;
   }
 });
