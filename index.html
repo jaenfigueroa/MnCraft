@@ -2,32 +2,57 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Jaen Figueroa">
-    <meta name="description" content="Jaencraft, portafolio web hecho con html, javascript y css puro, sin frameworks">
-    <meta name="keywords" content="html, css, javascript, portafolio, jaencraft, 3d, animaciones, jugar">
-    <meta name="robots" content="index, follow">
+    <meta name="author" content="Jaen Figueroa" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <title>MnCraft</title>
+      name="description"
+      content="Jaencraft, portafolio web hecho con html, javascript y css puro, sin frameworks"
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, portafolio, jaencraft, 3d, animaciones, jugar"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MnCraft 2</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="temas.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/temas.css" />
     <!-- JavaScript -->
-    <script src="main.js" defer></script>
-    <script src="temas.js" defer></script>
+    <script src="js/variables.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/temas.js" defer></script>
+
+    <script src="js/utils/perspectiva.js" defer></script>
+
+    <script src="js/extras/brujula.js" defer></script>
+    <script src="js/extras/animar-sombra.js" defer></script>
+
+    <script src="js/gestos/dap.js" defer></script>
+    <script src="js/gestos/agacharse.js" defer></script>
+    <script src="js/gestos/moverExtremidades.js" defer></script>
+
+    <script src="js/movimientos/girar.js" defer></script>
+    <script src="js/movimientos/avanzar.js" defer></script>
+    <script src="js/movimientos/saltar.js" defer></script>
+
+    <script src="js/key-events.js" defer></script>
   </head>
+
   <body class="fondoTema2" id="body">
     <header>
-      <!-- <div>
-        <img id="contadorVisitas" title="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=6735">
-      </div> -->
-      <p id="desarrolladoPor">Desarrollado por <a href="https://github.com/jaenfigueroa/JaenCraft" target="_blank" >Jaen Figueroa</a> &#169 2022</p>
+      <p id="desarrolladoPor">
+        Desarrollado por
+        <a href="https://github.com/jaenfigueroa/JaenCraft" target="_blank"
+          >Jaen Figueroa</a
+        >
+        - 2022
+      </p>
     </header>
+
     <main id="main">
-      <section class="personajeTema2" id="contenedor-steve">
+      <section class="personajeTema2" id="personaje">
         <!--STEVE ----------------------------------- -->
-        <div id="steve" >
+        <div id="steve">
           <!-- cabeza -->
           <div id="cabeza">
             <div class="frente">
@@ -96,6 +121,7 @@
         <!--------------------------------------------- -->
       </section>
     </main>
+
     <!-- FOOTER -->
     <footer>
       <article id="movimientos">
@@ -110,8 +136,7 @@
         </ol>
       </article>
 
-
-      <section class="contenedor-brujula" >
+      <section class="contenedor-brujula">
         <div id="brujula">
           <span id="flecha"></span>
           <div class="contenedor-letras">

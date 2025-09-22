@@ -1,0 +1,69 @@
+@keyframes moverCabeza {
+  0% {
+    transform: translateX(40px) translateZ(40px);
+  }
+
+  50% {
+    transform: translateX(40px) translateZ(40px) rotateX(0deg);
+  }
+
+  100% {
+    transform: translateX(40px) translateZ(40px);
+  }
+}
+
+@keyframes girarBrazoIzquierdo {
+  0% {
+    transform: rotateX(-25deg) translateX(120px) translateY(80px) translateZ(20px);
+  }
+
+  50% {
+    transform: rotateX(25deg) translateX(120px) translateY(80px) translateZ(20px);
+  }
+
+  100% {
+    transform: rotateX(-25deg) translateX(120px) translateY(80px) translateZ(20px);
+  }
+}
+
+@keyframes girarBrazoDerecho {
+  0% {
+    transform: rotateX(25deg) translateY(80px) translateZ(20px);
+  }
+
+  50% {
+    transform: rotateX(-25deg) translateY(80px) translateZ(20px);
+  }
+
+  100% {
+    transform: rotateX(25deg) translateY(80px) translateZ(20px);
+  }
+}
+
+@keyframes girarPiernaIzquierda {
+  0% {
+    transform: rotateX(25deg) translateX(80px) translateY(40px) translateZ(20px);
+  }
+
+  50% {
+    transform: rotateX(-25deg) translateX(80px) translateY(40px) translateZ(20px);
+  }
+
+  100% {
+    transform: rotateX(25deg) translateX(80px) translateY(40px) translateZ(20px);
+  }
+}
+
+@keyframes girarPiernaDerecha {
+  0% {
+    transform: rotateX(-25deg) translateX(40px) translateY(40px) translateZ(20px);
+  }
+
+  50% {
+    transform: rotateX(25deg) translateX(40px) translateY(40px) translateZ(20px);
+  }
+
+  100% {
+    transform: rotateX(-25deg) translateX(40px) translateY(40px) translateZ(20px);
+  }
+}

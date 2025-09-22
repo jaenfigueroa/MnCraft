@@ -1,0 +1,25 @@
+#cabeza {
+  .arriba {
+    background-color: var(--cafe-2);
+  }
+
+  .detras {
+    background: linear-gradient(var(--cafe-1) 87.5%, var(--piel-1) 87.5%);
+  }
+
+  .abajo {
+    background: linear-gradient(var(--cafe-3) 50%, var(--piel-3) 50%);
+  }
+
+  .frente {
+    background: linear-gradient(var(--cafe-1) 26%, var(--piel-1) 26%);
+  }
+
+  .derecha {
+    background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
+  }
+
+  .izquierda {
+    background: linear-gradient(var(--cafe-3) 53%, var(--piel-2) 53%);
+  }
+}

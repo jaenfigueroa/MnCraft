@@ -1,0 +1,70 @@
+#pierna-izquierda {
+  position: absolute;
+  transform-style: preserve-3d;
+
+  transform: translateX(80px) translateY(40px) translateZ(20px);
+  transform-origin: 100% 50% 0;
+  top: 160px;
+
+  width: 40px;
+  height: 120px;
+
+  &.moverse {
+    animation: girarPiernaIzquierda 0.6s linear infinite;
+  }
+
+  .frente {
+    position: absolute;
+    background: rgb(97, 97, 97);
+    background: yellow;
+    width: 40px;
+    height: 120px;
+  }
+
+  .detras {
+    position: absolute;
+    background: rgb(97, 97, 97);
+    background: violet;
+    width: 40px;
+    height: 120px;
+    transform: translateZ(-40px) rotateY(180deg);
+  }
+
+  .derecha {
+    position: absolute;
+    background: rgb(71, 71, 71);
+    background: red;
+    width: 40px;
+    height: 120px;
+    transform-origin: center left;
+    transform: translateX(40px) rotateY(90deg);
+  }
+
+  .izquierda {
+    position: absolute;
+    background: rgb(71, 71, 71);
+    background: blue;
+    width: 40px;
+    height: 120px;
+    transform-origin: center right;
+    transform: translateX(-40px) rotateY(-90deg);
+  }
+
+  .arriba {
+    position: absolute;
+    background: rgb(110, 110, 110);
+    background: green;
+    transform-origin: center bottom;
+    transform: rotateX(90deg) translateZ(40px);
+  }
+
+  .abajo {
+    position: absolute;
+    background: rgb(46, 46, 46);
+    background: yellow;
+    transform-origin: center top;
+    transform: translateY(120px) rotateX(-90deg);
+  }
+
+
+}

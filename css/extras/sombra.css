@@ -1,0 +1,18 @@
+#contenedor-sombra {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(89deg) translateZ(-70px) translateX(8px);
+}
+
+#sombra {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.263);
+  border-radius: 50%;
+  transition: 0.4s;
+}

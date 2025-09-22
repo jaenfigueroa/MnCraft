@@ -1,0 +1,63 @@
+#pierna-derecha .frente,
+#pierna-izquierda .frente {
+  background: linear-gradient(var(--azul-1) 80%, var(--gris-1) 80%);
+}
+
+#pierna-derecha .detras,
+#pierna-izquierda .detras {
+  background: linear-gradient(to top,
+      var(--gris-1) 37.5px,
+      var(--azul-1) 37.5px);
+}
+
+#pierna-derecha .izquierda,
+#pierna-derecha .derecha,
+#pierna-izquierda .izquierda,
+#pierna-izquierda .derecha {
+  background: linear-gradient(var(--azul-2) 80%, var(--gris-2) 80%);
+}
+
+#pierna-derecha .arriba,
+#pierna-izquierda .arriba {
+  background-color: var(--azul-3);
+}
+
+#pierna-derecha .abajo,
+#pierna-izquierda .abajo {
+  background-color: var(--gris-3);
+}
+
+/* RODILLAS */
+#pierna-izquierda::after,
+#pierna-derecha::after {
+  content: '';
+  width: 25px;
+  height: 12.5px;
+  background-color: var(--azul-4);
+  position: absolute;
+  top: 50px;
+  left: 8px;
+}
+
+/* DETALLES DE LOS ZAPATOS DE LOS COSTADOS */
+#pierna-derecha .izquierda::after,
+#pierna-izquierda .izquierda::after {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  position: absolute;
+  background-color: var(--gris-2);
+  bottom: 24px;
+  left: 0;
+}
+
+#pierna-izquierda .derecha::after,
+#pierna-derecha .derecha::after {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  position: absolute;
+  background-color: var(--gris-2);
+  bottom: 24px;
+  right: 0;
+}

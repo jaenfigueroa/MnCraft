@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: var(--letra);
+}
+
+#contadorVisitas {
+  height: 25px;
+}
+
+#desarrolladoPor a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--letra2);
+}
+
+#desarrolladoPor a:hover {
+  color: rgb(73, 62, 221);
+  text-decoration: underline;
+}
+
+@media (max-width: 680px) {
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+  }
+}

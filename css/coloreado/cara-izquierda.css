@@ -1,0 +1,42 @@
+#cabeza .izquierda:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: red;
+  background: linear-gradient(to right,
+      var(--cafe-3) 12.5%,
+      var(--piel-2) 12.5% 37.5%,
+      var(--cafe-3) 37.5%);
+}
+
+#cabeza .izquierda:before {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: linear-gradient(to right,
+      var(--piel-2) 37.5%,
+      var(--cafe-3) 37.5%);
+}
+
+#cabeza .izquierda div {
+  width: 100%;
+  height: 100%;
+}
+
+#cabeza .izquierda div:after {
+  content: '';
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: linear-gradient(to right,
+      var(--piel-2) 70%,
+      var(--cafe-3) 70%);
+}

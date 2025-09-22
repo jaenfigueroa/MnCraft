@@ -1,0 +1,75 @@
+#tronco .frente,
+#tronco .detras {
+  background: linear-gradient(var(--celeste-1) 79.5%, var(--azul-1) 79.5%);
+}
+
+#tronco .arriba {
+  background: var(--celeste-2);
+}
+
+#tronco .derecha,
+#tronco .izquierda {
+  background: linear-gradient(var(--celeste-3) 79.5%, var(--azul-2) 79.5%);
+}
+
+#tronco .abajo {
+  background: var(--azul-1);
+}
+
+/* CUELLO */
+#tronco .frente::after {
+  content: '';
+  width: 40px;
+  height: 12.5px;
+  background-color: var(--piel-1);
+  top: 0;
+  left: 20px;
+  position: absolute;
+}
+
+#tronco .frente::before {
+  content: '';
+  width: 20px;
+  height: 12.5px;
+  background-color: var(--piel-1);
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+
+/* PARTE BAJA DEL TRONCO FRONTAL */
+#tronco .frente div {
+  width: 100%;
+  height: 100%;
+}
+
+#tronco .frente div::after {
+  content: '';
+  width: 25px;
+  height: 12.5px;
+  background-color: var(--celeste-1);
+  bottom: 12.5px;
+  right: 0;
+  position: absolute;
+}
+
+#tronco .frente div::before {
+  content: '';
+  width: 12.5px;
+  height: 12.5px;
+  background-color: var(--celeste-1);
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+}
+
+/* PARTE BAJA DEL TRONCO IZQUIERDA */
+#tronco .izquierda:after {
+  content: '';
+  width: 12.5px;
+  height: 12.5px;
+  background-color: var(--celeste-3);
+  position: absolute;
+  bottom: 12.5px;
+  left: 0;
+}

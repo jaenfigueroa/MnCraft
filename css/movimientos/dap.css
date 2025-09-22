@@ -1,0 +1,22 @@
+.cabeza--epico {
+  transform: translateX(0px) translateY(30px) translateZ(60px) rotateX(-35deg) rotateY(-25deg) rotateZ(-25deg) !important;
+  animation: none !important;
+}
+
+.tronco--epico {
+  transform: translateX(40px) translateY(80px) translateZ(20px) !important;
+  animation: none !important;
+}
+
+.brazo-izquierdo--epico {
+  transform: translateX(142px) translateY(-55px) translateZ(20px) rotateZ(-120deg) !important;
+}
+
+.brazo-derecho--epico {
+  transform: translateX(45px) translateY(0px) translateZ(85px) rotateX(80deg) rotateZ(-30deg) !important;
+}
+
+.pierna-izquierda--epico,
+.pierna-derecha--epico {
+  animation: none;
+}

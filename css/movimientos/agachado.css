@@ -1,0 +1,24 @@
+.cabeza--agachado {
+  transform: translateX(40px) translateY(35px) translateZ(115px) !important;
+  animation: none !important;
+}
+
+.tronco--agachado {
+  transform: translate(40px) translateY(110px) translateZ(40px) rotateX(-35deg) !important;
+  animation: none !important;
+}
+
+.brazo-izquierdo--agachado {
+  transform: translateX(120px) translateY(110px) translateZ(40px) rotateX(-25deg) !important;
+  animation: none !important;
+}
+
+.brazo-derecho--agachado {
+  transform: translateY(110px) translateZ(40px) rotateX(-25deg) !important;
+  animation: none !important;
+}
+
+.pierna-izquierda--agachado,
+.pierna-derecha--agachado {
+  animation: none !important;
+}
