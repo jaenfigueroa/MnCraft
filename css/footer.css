@@ -9,7 +9,7 @@ footer {
   padding: 8px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 420px) {
   footer {
     display: none;
     justify-content: right;
