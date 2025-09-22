@@ -58,7 +58,6 @@ window.addEventListener("keyup", (e) => {
     case "KeyD":
       dejarMoverBrazos();
       dejarMoverPiernas();
-      // detenerAvance();
       break;
     case "ShiftLeft":
       dejarDeAgacharse();

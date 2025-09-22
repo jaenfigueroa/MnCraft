@@ -6,40 +6,7 @@ footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 16px;
-}
-
-footer article {
-  background-color: #333;
-  color: white;
-  border-radius: 5px;
-  padding: 16px;
-  line-height: 26px;
-  padding-left: 45px;
-  width: max-content;
-  position: relative;
-}
-
-footer article span {
-  margin-left: -30px;
-  margin-bottom: 10px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-
-footer article li {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-family: Tahoma, sans-serif;
-  font-weight: lighter;
-}
-
-footer article li b {
-  font-size: 1rem;
-  color: rgb(134, 255, 255);
-  font-family: Tahoma, sans-serif;
-  font-weight: lighter;
+  padding: 8px;
 }
 
 @media (max-width: 680px) {

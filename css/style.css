@@ -1,3 +1,4 @@
+@import './temas.css';
 @import './footer.css';
 
 @import './posicionamiento/cabeza.css';
@@ -22,6 +23,7 @@
 
 @import './extras/sombra.css';
 @import './extras/brujula.css';
+@import './extras/caja-movimientos.css';
 
 * {
   box-sizing: border-box;
