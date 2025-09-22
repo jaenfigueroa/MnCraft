@@ -1,9 +1,18 @@
 const animarSombra = () => {
-  sombra.style.width = "100px";
-  sombra.style.height = "100px";
+  if (validarAccionEnCurso("sombra-animando")) return;
+  agregarAccionEnCurso("sombra-animando");
 
-  setTimeout(() => {
-    sombra.style.width = "140px";
-    sombra.style.height = "140px";
-  }, 400);
+  sombra.classList.remove("sombra--aterrizando");
+  sombra.classList.add("sombra--animando");
+
+  console.log("animar sombra");
+};
+
+const dejarDeAnimarSombra = () => {
+  sombra.classList.remove("sombra--animando");
+
+  eliminarAccionEnCurso("sombra-animando");
+  sombra.classList.add("sombra--aterrizando");
+
+  console.log("dejar de animar sombra");
 };

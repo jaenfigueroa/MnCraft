@@ -61,6 +61,7 @@ window.addEventListener("keyup", (e) => {
       break;
     case "Space":
       dejarDeSaltar();
+      dejarDeAnimarSombra();
       dejarMoverExtremidades();
       break;
   }
