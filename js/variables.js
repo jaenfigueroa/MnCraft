@@ -1,6 +1,7 @@
+const body = document.getElementById("body");
 const main = document.getElementById("main");
 
-const contenedorSteve = document.getElementById("personaje");
+const steveContenedor = document.getElementById("steve-contenedor");
 const steve = document.getElementById("steve");
 const sombra = document.getElementById("sombra");
 

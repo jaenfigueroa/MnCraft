@@ -8,6 +8,8 @@
   transform: translateX(40px) translateZ(40px);
   z-index: 3;
 
+  transition: 0.4s;
+
   .frente {
     position: absolute;
     background: rgb(97, 97, 97);

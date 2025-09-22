@@ -9,8 +9,10 @@
   width: 40px;
   height: 120px;
 
+  transition: 0.4s;
+
   &.moverse {
-    animation: girarPiernaIzquierda 0.6s linear infinite;
+    animation: girarPiernaIzquierda 1s linear infinite;
   }
 
   .frente {

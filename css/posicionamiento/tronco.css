@@ -6,6 +6,8 @@
   height: 120px;
   transform: translateX(40px) translateY(80px) translateZ(20px);
 
+  transition: 0.4s;
+
   .frente {
     position: absolute;
     background: rgb(97, 97, 97);

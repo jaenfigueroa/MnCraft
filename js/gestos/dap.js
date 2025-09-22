@@ -1,10 +1,15 @@
 const iniciarDap = (e) => {
+  if (validarAccionEnCurso("dap")) return;
+  agregarAccionEnCurso("dap");
+
   cabeza.classList.add("cabeza--epico");
   tronco.classList.add("tronco--epico");
   brazoIzquierdo.classList.add("brazo-izquierdo--epico");
   brazoDerecho.classList.add("brazo-derecho--epico");
   piernaIzquierda.classList.add("pierna-izquierda--epico");
   piernaDerecha.classList.add("pierna-derecha--epico");
+
+  console.log("iniciar dap");
 };
 
 const detenerDap = (e) => {
@@ -14,4 +19,8 @@ const detenerDap = (e) => {
   brazoDerecho.classList.remove("brazo-derecho--epico");
   piernaIzquierda.classList.remove("pierna-izquierda--epico");
   piernaDerecha.classList.remove("pierna-derecha--epico");
+
+  eliminarAccionEnCurso("dap");
+
+  console.log("detener dap");
 };

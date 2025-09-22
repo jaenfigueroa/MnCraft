@@ -23,6 +23,7 @@
     <script src="js/temas.js" defer></script>
 
     <script src="js/utils/perspectiva.js" defer></script>
+    <script src="js/utils/acciones-en-curso.js" defer></script>
 
     <script src="js/extras/brujula.js" defer></script>
     <script src="js/extras/animar-sombra.js" defer></script>
@@ -38,21 +39,11 @@
     <script src="js/key-events.js" defer></script>
   </head>
 
-  <body class="fondoTema2" id="body">
-    <header>
-      <p id="desarrolladoPor">
-        Desarrollado por
-        <a href="https://github.com/jaenfigueroa/JaenCraft" target="_blank"
-          >Jaen Figueroa</a
-        >
-        - 2022
-      </p>
-    </header>
-
+  <body id="body" class="temaFondo2">
     <main id="main">
-      <section class="personajeTema2" id="personaje">
+      <section id="steve-contenedor">
         <!--STEVE ----------------------------------- -->
-        <div id="steve">
+        <div id="steve" class="temaPersonaje2">
           <!-- cabeza -->
           <div id="cabeza">
             <div class="frente">
@@ -115,7 +106,7 @@
           </div>
         </div>
         <!--SOMBRA ----------------------------------- -->
-        <div id="contenedor-sombra">
+        <div id="sombra-contenedor">
           <div id="sombra"></div>
         </div>
         <!--------------------------------------------- -->

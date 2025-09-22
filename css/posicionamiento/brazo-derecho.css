@@ -8,8 +8,10 @@
   width: 40px;
   height: 120px;
 
+  transition: 0.4s;
+
   &.moverse {
-    animation: girarBrazoDerecho 0.6s linear infinite;
+    animation: girarBrazoDerecho 1s linear infinite;
   }
 
   .frente {

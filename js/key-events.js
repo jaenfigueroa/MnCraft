@@ -1,26 +1,28 @@
 // Al presionar una tecla
 window.addEventListener("keydown", (e) => {
   switch (e.code) {
-    case "KeyD":
+    // movimientos en el plano
+    case "KeyW":
       moverExtremidades();
-      girar("ESTE");
-      avanzar("ESTE");
+      girar("NORTE");
+      avanzar("NORTE");
       break;
     case "KeyA":
       moverExtremidades();
       girar("OESTE");
       avanzar("OESTE");
       break;
-    case "KeyW":
-      moverExtremidades();
-      girar("NORTE");
-      avanzar("NORTE");
-      break;
     case "KeyS":
       moverExtremidades();
       girar("SUR");
       avanzar("SUR");
       break;
+    case "KeyD":
+      moverExtremidades();
+      girar("ESTE");
+      avanzar("ESTE");
+      break;
+    // gestos
     case "ShiftLeft":
       agacharse();
       break;
@@ -36,25 +38,30 @@ window.addEventListener("keydown", (e) => {
         dejarMoverExtremidades();
       }, 800);
       break;
+    // cambios de tema
+    case "KeyL":
+      siguienteTemaFondo();
+      break;
+    case "KeyK":
+      anteriorTemaSteve();
+      break;
   }
 });
 
 // Al soltar una tecla
 window.addEventListener("keyup", (e) => {
   switch (e.code) {
-    case "KeyD":
-    case "KeyA":
     case "KeyW":
+    case "KeyA":
     case "KeyS":
+    case "KeyD":
       dejarMoverExtremidades();
       break;
     case "ShiftLeft":
       dejarDeAgacharse();
-      dejarMoverExtremidades();
       break;
     case "KeyG":
       detenerDap();
-      dejarMoverExtremidades();
       break;
   }
 });

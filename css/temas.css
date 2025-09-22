@@ -1,52 +1,57 @@
 /* TEMAS///////////////////////////////////// */
-.fondoTema1 {
-  --fondo: linear-gradient(white, white);
-  --letra2: rgb(0, 29, 172);
-}
-.fondoTema2 {
-  --fondo: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
-  --letra2: rgb(0, 29, 172);
-}
-.fondoTema3 {
-  --fondo: linear-gradient(#d4c9ff, rgb(137, 145, 255));
-  --letra2: rgb(0, 29, 172);
-}
-.fondoTema4 {
-  --fondo: linear-gradient(hsl(181, 100%, 61%), #33ff59);
-  --letra2: rgb(0, 29, 172);
-}
-.fondoTema5 {
-  --fondo: linear-gradient(#000000, rgb(55, 55, 55));
-  --letra: rgb(163, 163, 163);
-  --letra2: rgb(255, 255, 255);
-}
-.fondoTema6 {
-  --fondo: linear-gradient(#ffffff, rgb(227, 144, 255));
-  --letra2: rgb(0, 29, 172);
-}
-.fondoTema7 {
-  --fondo: linear-gradient(#eb4174, #ffe3e3);
-  --letra2: rgb(255, 255, 255);
-}
-.fondoTema8 {
-  --fondo: linear-gradient(#8a2eff, #cce0ff);
-  --letra2: rgb(255, 255, 255);
-}
-.fondoTema9 {
-  --fondo: linear-gradient(#1aa37a, #9dffbf);
-  --letra2: rgb(255, 255, 255);
-}
-.fondoTema10 {
-  --fondo: linear-gradient(#ffb648, #ff5d5d);
-  --letra2: rgb(255, 255, 255);
-  --letra2: rgb(10, 45, 220);
-}
-.fondoTema11 {
+.temaFondo1 {
   --fondo: linear-gradient(#62bdff, #3d10bd);
   --letra2: rgb(255, 255, 255);
 }
 
-.personajeTema1 {
+.temaFondo2 {
+  --fondo: linear-gradient(rgb(210, 255, 142), rgb(85, 255, 90));
+  --letra2: rgb(0, 29, 172);
+}
+
+.temaFondo3 {
+  --fondo: linear-gradient(#d4c9ff, rgb(137, 145, 255));
+  --letra2: rgb(0, 29, 172);
+}
+
+.temaFondo4 {
+  --fondo: linear-gradient(hsl(181, 100%, 61%), #33ff59);
+  --letra2: rgb(0, 29, 172);
+}
+
+.temaFondo5 {
+  --fondo: linear-gradient(#000000, rgb(55, 55, 55));
+  --letra: rgb(163, 163, 163);
+  --letra2: rgb(255, 255, 255);
+}
+
+.temaFondo6 {
+  --fondo: linear-gradient(#ffffff, rgb(227, 144, 255));
+  --letra2: rgb(0, 29, 172);
+}
+
+.temaFondo7 {
+  --fondo: linear-gradient(#eb4174, #ffe3e3);
+  --letra2: rgb(255, 255, 255);
+}
+
+.temaFondo8 {
+  --fondo: linear-gradient(#8a2eff, #cce0ff);
+  --letra2: rgb(255, 255, 255);
+}
+
+.temaFondo9 {
+  --fondo: linear-gradient(#1aa37a, #9dffbf);
+  --letra2: rgb(255, 255, 255);
+}
+
+.temaFondo10 {
+  --fondo: linear-gradient(#ffb648, #ff5d5d);
+  --letra2: rgb(255, 255, 255);
+  --letra2: rgb(10, 45, 220);
+}
+
+.temaPersonaje1 {
   --cafe-0: #8b583e;
   --cafe-1: #51331a;
   --cafe-2: #402c1b;
@@ -74,7 +79,7 @@
   --ojos: #654092;
 }
 
-.personajeTema2 {
+.temaPersonaje2 {
   --cafe-0: #8b583e;
   --cafe-1: #51331a;
   --cafe-2: #402c1b;
@@ -105,7 +110,7 @@
   --ojos: #423095;
 }
 
-.personajeTema3 {
+.temaPersonaje3 {
   --cafe-0: #8b8b8b;
   --cafe-1: #5c5c5c;
   --cafe-2: #3b3b3b;
