@@ -28,7 +28,7 @@
 @import './coloreado/cara-derecha.css';
 
 :root {
-  --avatar: url('/assets/skins/skin1.png');
+  --avatar: url('/assets/avatar/skin1.png');
 }
 
 * {
