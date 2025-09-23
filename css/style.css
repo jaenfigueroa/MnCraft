@@ -44,9 +44,9 @@
 #contenedor3d {
   transform-style: preserve-3d;
   /* es para girar las perspectiva, y mantener la profundidad */
-  /* transform: perspective(100vw) rotateX(-25deg) rotateY(-35deg);
-  transform: perspective(100vw) rotateX(-10deg) rotateY(-35deg); */
-  transform: perspective(100vw) rotateX(-10deg) rotateY(-15deg);
+  /* transform: perspective(100vw) rotateX(-25deg) rotateY(-35deg); */
+  /* transform: perspective(100vw) rotateX(-10deg) rotateY(-35deg); */
+  transform: perspective(100vh) rotateX(-10deg) rotateY(-15deg);
   /* para centrar el contenedor 3D en el viewport */
   top: 50%;
   left: 50%;
@@ -69,30 +69,30 @@
 }
 
 #cesped {
-  width: 9000px;
-  height: 9000px;
+  width: 8000px;
+  height: 6000px;
 
   /* centrar el cesped dentro del piso sin importar el tamaño del piso ni del cesped */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  /* transform: translateX(-50%) translateY(-50%); */
+  transform: translateX(-65%) translateY(-72%);
 
   /* agregar la textura de césped */
   background-image: url('../assets/texturas/grass_carried.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
+  border-radius: 50%;
 
-  border-radius: 100%;
-
-  /* &::after {
+  &::after {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 100%;
     pointer-events: none;
-    background: radial-gradient(circle, #ffffff00 0%, #eeeeee00 30%, #22222295 100%);
-  } */
+    background: radial-gradient(circle, #ffffff00 0%, #eeeeee00 30%, #2222226e 100%);
+  }
 }
 
 
