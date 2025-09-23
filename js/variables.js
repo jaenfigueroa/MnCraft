@@ -1,3 +1,5 @@
+const contenedor3d = document.getElementById("contenedor3d");
+
 const body = document.getElementById("body");
 const steveEjeMovimiento = document.getElementById("steveEjeMovimiento");
 

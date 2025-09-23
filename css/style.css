@@ -88,6 +88,9 @@
   opacity: 0.7;
 }
 
+/* ELEMENTO STEVE */
+/* ELEMENTO STEVE */
+
 #stevePosicionInicialPlano {
   transform-style: preserve-3d;
 
@@ -100,7 +103,7 @@
 #steveEjeMovimiento {
   transform-style: preserve-3d;
   transition: 0.4s;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   position: absolute;
   top: 0;
@@ -109,13 +112,16 @@
 #steveEjeGiro {
   transform-style: preserve-3d;
   transition: 0.4s;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 #steve {
   transform-style: preserve-3d;
   width: 160px;
   height: 320px;
-  border: 1px solid green;
-  background: rgba(0, 128, 0, 0.146);
+  /* border: 1px solid green; */
+  /* background: rgba(0, 128, 0, 0.146); */
 }
+
+/* ELEMENTO CUBO */
+/* ELEMENTO CUBO */
