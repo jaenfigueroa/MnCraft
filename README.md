@@ -12,8 +12,11 @@ Minecraft Game made with pure css and javascript.
 </div>
 
 
+
+
 ## 🔎 Preview
 
+### v1
 <div >
   <img src="./assets/preview2.gif" align="center" style="width: 70%" />
 <!--   <br>
@@ -23,6 +26,9 @@ Minecraft Game made with pure css and javascript.
   <br>
   <img src="./assets/captura2.png" align="center" style="width: 100%" /> -->
 </div>
+
+### v2
+<img width="4770" height="2297" alt="image" src="https://github.com/user-attachments/assets/50e3c07d-2db0-459c-bab8-57b5e2ab1f21" />
 
 ## 📌 Technologies
 This project was created with:
