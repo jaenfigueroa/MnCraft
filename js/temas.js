@@ -1,23 +1,23 @@
-let temasFondo = 10;
-let temaFondo = 3;
+let paisajesTotal = 3;
+let numeroPaisajeSeleccionado = 3;
 
-let temasPersonsaje = 3;
-let temaPersonaje = 3;
+let skinsTotal = 10;
+let numeroSkinSeleccionado = 10;
 
 const siguienteTemaFondo = () => {
-  if (temaFondo > temasFondo) {
-    temaFondo = 1;
+  if (numeroPaisajeSeleccionado > paisajesTotal) {
+    numeroPaisajeSeleccionado = 1;
   }
 
-  body.className = `temaFondo${temaFondo}`;
-  temaFondo++;
+  body.className = `temaFondo${numeroPaisajeSeleccionado}`;
+  numeroPaisajeSeleccionado++;
 };
 
 const anteriorTemaSteve = () => {
-  if (temaPersonaje > temasPersonsaje) {
-    temaPersonaje = 1;
+  if (numeroSkinSeleccionado > skinsTotal) {
+    numeroSkinSeleccionado = 1;
   }
 
-  steve.className = `temaPersonaje${temaPersonaje}`;
-  temaPersonaje++;
+  steve.className = `temaPersonaje${numeroSkinSeleccionado}`;
+  numeroSkinSeleccionado++;
 };
