@@ -15,41 +15,41 @@
 }
 
 .temaPersonaje1 {
-  --avatar: url('/assets/avatar/skin1.png'), url('MnCraft/assets/avatar/skin1.png');
+  --avatar: url('/assets/avatar/skin1.png'), url('../assets/avatar/skin1.png');
 }
 
 .temaPersonaje2 {
-  --avatar: url('/assets/avatar/skin2.png'), url('MnCraft/assets/avatar/skin2.png');
+  --avatar: url('/assets/avatar/skin2.png'), url('../assets/avatar/skin2.png');
 }
 
 .temaPersonaje3 {
-  --avatar: url('/assets/avatar/skin3.png'), url('MnCraft/assets/avatar/skin3.png');
+  --avatar: url('/assets/avatar/skin3.png'), url('../assets/avatar/skin3.png');
 }
 
 .temaPersonaje4 {
-  --avatar: url('/assets/avatar/skin4.png'), url('MnCraft/assets/avatar/skin4.png');
+  --avatar: url('/assets/avatar/skin4.png'), url('../assets/avatar/skin4.png');
 }
 
 .temaPersonaje5 {
-  --avatar: url('/assets/avatar/skin5.png'), url('MnCraft/assets/avatar/skin5.png');
+  --avatar: url('/assets/avatar/skin5.png'), url('../assets/avatar/skin5.png');
 }
 
 .temaPersonaje6 {
-  --avatar: url('/assets/avatar/skin6.png'), url('MnCraft/assets/avatar/skin6.png');
+  --avatar: url('/assets/avatar/skin6.png'), url('../assets/avatar/skin6.png');
 }
 
 .temaPersonaje7 {
-  --avatar: url('/assets/avatar/skin7.png'), url('MnCraft/assets/avatar/skin7.png');
+  --avatar: url('/assets/avatar/skin7.png'), url('../assets/avatar/skin7.png');
 }
 
 .temaPersonaje8 {
-  --avatar: url('/assets/avatar/skin8.png'), url('MnCraft/assets/avatar/skin8.png');
+  --avatar: url('/assets/avatar/skin8.png'), url('../assets/avatar/skin8.png');
 }
 
 .temaPersonaje9 {
-  --avatar: url('/assets/avatar/skin9.png'), url('MnCraft/assets/avatar/skin9.png');
+  --avatar: url('/assets/avatar/skin9.png'), url('../assets/avatar/skin9.png');
 }
 
 .temaPersonaje10 {
-  --avatar: url('/assets/avatar/skin10.png'), url('MnCraft/assets/avatar/skin10.png');
+  --avatar: url('/assets/avatar/skin10.png'), url('../assets/avatar/skin10.png');
 }
