@@ -33,13 +33,23 @@
 
 #body {
   overflow: hidden;
-  background: var(--fondo);
+  /* background: var(--fondo); */
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* #piso {
+  width: 500px;
+  height: 500px;
+  background-image: url('../assets/texturas/grass_carried.png');
+  background-size: 80px 80px;
+  image-rendering: pixelated;
+  transform: rotateX(89deg) translateZ(-70px) translateX(8px);
+  position: absolute;
+} */
 
 #main {
   transform-style: preserve-3d;
