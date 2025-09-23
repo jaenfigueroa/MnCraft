@@ -28,7 +28,8 @@ Minecraft Game made with pure css and javascript.
 </div>
 
 ### v2
-<img width="2260" height="1304" alt="Captura de pantalla 2025-09-23 a las 6 40 33 p  m" src="https://github.com/user-attachments/assets/f5c8b35b-9364-412b-b65b-f71fd1a4efe5" />
+<img width="2260" height="1304" alt="Captura de pantalla 2025-09-23 a las 6 40 33 p  m  (1)" src="https://github.com/user-attachments/assets/7be10b17-ce86-44bb-a73d-2d2260c0fca9" />
+
 
 ## 📌 Technologies
 This project was created with:
