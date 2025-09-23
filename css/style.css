@@ -35,7 +35,7 @@
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(to top, #cfdfff 80%, #d0e0ff 83%, #90aaff 90%, #6C8FFF 100%);
+  background: linear-gradient(to top, #A6C4FF 80%, #b7cfff 83%, #90aaff 90%, #6C8FFF 100%);
 }
 
 /* PIESA PARA REFERENCIAS */
@@ -44,7 +44,9 @@
 #contenedor3d {
   transform-style: preserve-3d;
   /* es para girar las perspectiva, y mantener la profundidad */
-  transform: perspective(100vw) rotateX(-25deg) rotateY(-35deg);
+  /* transform: perspective(100vw) rotateX(-25deg) rotateY(-35deg);
+  transform: perspective(100vw) rotateX(-10deg) rotateY(-35deg); */
+  transform: perspective(100vw) rotateX(-10deg) rotateY(-15deg);
   /* para centrar el contenedor 3D en el viewport */
   top: 50%;
   left: 50%;
@@ -66,9 +68,9 @@
   border: 2px solid blue; */
 }
 
-#cespedArriba {
-  width: 10000px;
-  height: 10000px;
+#cesped {
+  width: 9000px;
+  height: 9000px;
 
   /* centrar el cesped dentro del piso sin importar el tamaño del piso ni del cesped */
   position: absolute;
@@ -77,107 +79,21 @@
   transform: translateX(-50%) translateY(-50%);
 
   /* agregar la textura de césped */
-  background-image: url('../assets/texturas/grass_carried.png'), radial-gradient(circle, #fff 0%, #eee 30%, #222 100%);
+  background-image: url('../assets/texturas/grass_carried.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
-
-  /* TEMPORAL */
-  /* opacity: 0.7; */
 
   border-radius: 100%;
+
+  /* &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle, #ffffff00 0%, #eeeeee00 30%, #22222295 100%);
+  } */
 }
-
-#cespedAbajo {
-  width: 10000px;
-  height: 10000px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-
-  border-radius: 100%;
-  background: radial-gradient(circle, #ffffff00 0%, #eeeeee00 30%, #22222295 100%);
-}
-
-/* #cespedAbajo {
-  width: 1000px;
-  height: 1000px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%) translateZ(-80px);
-
-  background-image: url('../assets/texturas/dirt.png');
-  background-size: 80px 80px;
-  image-rendering: pixelated;
-}
-
-#cespedFrente {
-  width: 1000px;
-  height: 80px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(460px) translateZ(-40px) rotateX(-90deg);
-
-  background-image: url('../assets/texturas/grass_side_carried.png');
-  background-size: 80px 80px;
-  image-rendering: pixelated;
-}
-
-#cespedAtras {
-  width: 1000px;
-  height: 80px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-540px) translateZ(-40px) rotateX(-90deg);
-
-  background-image: url('../assets/texturas/grass_side_carried.png');
-  background-size: 80px 80px;
-  image-rendering: pixelated;
-} */
-
-#cespedDerecha {
-  width: 1000px;
-  height: 80px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(0px) translateY(-50%) translateZ(-40px) rotateX(-90deg) rotateY(90deg);
-
-  /* agregar la textura de césped */
-  background-image: url('../assets/texturas/grass_side_carried.png');
-  background-size: 80px 80px;
-  image-rendering: pixelated;
-
-  /* TEMPORAL */
-  /* opacity: 0.7; */
-}
-
-#cespedIzquierda {
-  width: 1000px;
-  height: 80px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-1000px) translateY(-50%) translateZ(-40px) rotateX(-90deg) rotateY(90deg);
-
-  /* agregar la textura de césped */
-  background-image: url('../assets/texturas/grass_side_carried.png');
-  background-size: 80px 80px;
-  image-rendering: pixelated;
-
-  /* TEMPORAL */
-  opacity: 0.7;
-}
-
 
 
 /* ELEMENTO STEVE */
