@@ -62,6 +62,6 @@
     width: 40px;
     height: 40px;
     transform-origin: center top;
-    transform: translateY(120px) rotateX(-90deg);
+    transform: translateY(120px) rotateX(-90deg) rotateY(180deg);
   }
 }
