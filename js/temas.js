@@ -21,3 +21,14 @@ const anteriorTemaSteve = () => {
   steve.className = `temaPersonaje${numeroSkinSeleccionado}`;
   numeroSkinSeleccionado++;
 };
+
+// seleccionar un tema y personaje de manera aleatoria al cargar la página
+window.onload = () => {
+  numeroPaisajeSeleccionado = Math.floor(Math.random() * paisajesTotal) + 1;
+  body.className = `temaFondo${numeroPaisajeSeleccionado}`;
+  numeroPaisajeSeleccionado++;
+
+  numeroSkinSeleccionado = Math.floor(Math.random() * skinsTotal) + 1;
+  steve.className = `temaPersonaje${numeroSkinSeleccionado}`;
+  numeroSkinSeleccionado++;
+};
