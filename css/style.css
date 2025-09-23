@@ -35,7 +35,6 @@
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-
   background: black;
 }
 
@@ -44,8 +43,8 @@
 /* el ancho y alto se modifica automaticamente */
 #contenedor3d {
   transform-style: preserve-3d;
-  /* es para girar las perspectiva, */
-  transform: rotateX(-25deg) rotateY(-35deg);
+  /* es para girar las perspectiva, y mantener la profundidad */
+  transform: perspective(100vw) rotateX(-25deg) rotateY(-35deg);
   /* para centrar el contenedor 3D en el viewport */
   top: 50%;
   left: 50%;
