@@ -35,7 +35,7 @@
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  background: black;
+  background: linear-gradient(to top, #cfdfff 80%, #d0e0ff 83%, #90aaff 90%, #6C8FFF 100%);
 }
 
 /* PIESA PARA REFERENCIAS */
@@ -67,8 +67,8 @@
 }
 
 #cespedArriba {
-  width: 1000px;
-  height: 1000px;
+  width: 10000px;
+  height: 10000px;
 
   /* centrar el cesped dentro del piso sin importar el tamaño del piso ni del cesped */
   position: absolute;
@@ -77,25 +77,38 @@
   transform: translateX(-50%) translateY(-50%);
 
   /* agregar la textura de césped */
-  background-image: url('../assets/texturas/grass_carried.png');
+  background-image: url('../assets/texturas/grass_carried.png'), radial-gradient(circle, #fff 0%, #eee 30%, #222 100%);
   background-size: 80px 80px;
   image-rendering: pixelated;
 
   /* TEMPORAL */
   /* opacity: 0.7; */
+
+  border-radius: 100%;
 }
 
 #cespedAbajo {
+  width: 10000px;
+  height: 10000px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  border-radius: 100%;
+  background: radial-gradient(circle, #ffffff00 0%, #eeeeee00 30%, #222222ba 100%);
+}
+
+/* #cespedAbajo {
   width: 1000px;
   height: 1000px;
 
   position: absolute;
   top: 50%;
   left: 50%;
-  /* transform: translateX(-50%) translateY(540px) translateZ(-40px) rotateX(-90deg); */
   transform: translateX(-50%) translateY(-50%) translateZ(-80px);
 
-  /* agregar la textura de césped */
   background-image: url('../assets/texturas/dirt.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
@@ -110,13 +123,9 @@
   left: 50%;
   transform: translateX(-50%) translateY(460px) translateZ(-40px) rotateX(-90deg);
 
-  /* agregar la textura de césped */
   background-image: url('../assets/texturas/grass_side_carried.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
-
-  /* TEMPORAL */
-  /* opacity: 0.7; */
 }
 
 #cespedAtras {
@@ -128,14 +137,10 @@
   left: 50%;
   transform: translateX(-50%) translateY(-540px) translateZ(-40px) rotateX(-90deg);
 
-  /* agregar la textura de césped */
   background-image: url('../assets/texturas/grass_side_carried.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
-
-  /* TEMPORAL */
-  /* opacity: 0.7; */
-}
+} */
 
 #cespedDerecha {
   width: 1000px;
