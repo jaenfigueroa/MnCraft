@@ -39,6 +39,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transform-style: preserve-3d;
+
+  background-color: rgba(255, 255, 0, 0.1);
+
 }
 
 /* #piso {
@@ -51,24 +56,30 @@
   position: absolute;
 } */
 
-#main {
+#contenedor3d {
   transform-style: preserve-3d;
   transition: 0.4s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateX(-10deg) rotateY(-20deg);
+  /* es para girar las perspectiva, */
+  transform: rotateX(-25deg) rotateY(-35deg);
+  border: 1px solid violet;
 }
 
-#steve-contenedor {
+#steveEjeMovimiento {
   transform-style: preserve-3d;
   transition: 0.4s;
-  width: 160px;
-  height: 320px;
-  position: relative;
+  border: 1px solid red;
+}
+
+#steveEjeGiro {
+  transform-style: preserve-3d;
+  transition: 0.4s;
+  border: 1px solid blue;
 }
 
 #steve {
   transform-style: preserve-3d;
-  transition: 0.4s;
+  width: 160px;
+  height: 320px;
+  border: 1px solid green;
+  background: rgba(0, 128, 0, 0.146);
 }

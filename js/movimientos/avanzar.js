@@ -21,7 +21,7 @@ const calcularNuevaUbicacionEnElPlano = (direccion) => {
 };
 
 const moverANuevaUbicacionEnElPlano = () => {
-  main.style.transform = `rotateX(-10deg) rotateY(-30deg)
+  steveEjeMovimiento.style.transform = `
      translateX(${ubicacionX}px)
      translateZ(${ubicacionZ}px) 
     `;

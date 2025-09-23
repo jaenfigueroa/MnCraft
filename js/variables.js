@@ -1,7 +1,7 @@
 const body = document.getElementById("body");
-const main = document.getElementById("main");
+const steveEjeMovimiento = document.getElementById("steveEjeMovimiento");
 
-const steveContenedor = document.getElementById("steve-contenedor");
+const steveEjeGiro = document.getElementById("steveEjeGiro");
 const steve = document.getElementById("steve");
 const sombra = document.getElementById("sombra");
 

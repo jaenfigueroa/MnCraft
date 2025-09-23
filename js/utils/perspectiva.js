@@ -18,5 +18,5 @@
 //   let Y = evento.clientY;
 
 //   //asignar esos valores y hacer que rote
-//   main.style.transform = `rotateX(-${Y}deg) rotateY(${X}deg)`;
+//   steveEjeMovimiento.style.transform = `rotateX(-${Y}deg) rotateY(${X}deg)`;
 // }

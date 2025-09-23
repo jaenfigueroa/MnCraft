@@ -6,5 +6,5 @@ const GRADOS = {
 };
 
 const girar = (direccion) => {
-  steveContenedor.style.transform = `rotateX(0deg) rotateY(${GRADOS[direccion]}deg)`;
+  steveEjeGiro.style.transform = `rotateX(0deg) rotateY(${GRADOS[direccion]}deg)`;
 };
