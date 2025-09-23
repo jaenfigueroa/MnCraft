@@ -23,9 +23,6 @@
 @import './coloreado/pierna-izquierda.css';
 @import './coloreado/cabeza.css';
 @import './coloreado/tronco.css';
-@import './coloreado/cara-delante.css';
-@import './coloreado/cara-izquierda.css';
-@import './coloreado/cara-derecha.css';
 
 * {
   box-sizing: border-box;
