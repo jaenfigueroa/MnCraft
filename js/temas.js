@@ -1,8 +1,8 @@
 const PAISAJES_TOTAL = 3;
-let numeroPaisajeSeleccionado = 0;
+let numeroPaisajeSeleccionado = 1;
 
 const SKINS_TOTAL = 9;
-let numeroSkinSeleccionado = 0;
+let numeroSkinSeleccionado = 1;
 
 const siguienteTemaFondo = () => {
   if (numeroPaisajeSeleccionado > PAISAJES_TOTAL) {

@@ -2,21 +2,21 @@
 //CAMBIAR LA PERSPECTIVA DEL PERSONAJE/////////////////////////////
 
 // // /cuando se hace click ----------------------
-// window.addEventListener("mousedown", () => {
-//   window.addEventListener("mousemove", girar);
-// });
+window.addEventListener("mousedown", () => {
+  window.addEventListener("mousemove", moverPlano);
+});
 
-// ///cuando se deja de hacer click -------------
-// window.addEventListener("mouseup", () => {
-//   removeEventListener("mousemove", girar);
-// });
+///cuando se deja de hacer click -------------
+window.addEventListener("mouseup", () => {
+  removeEventListener("mousemove", moverPlano);
+});
 
-// //--------------------------------------------
-// function girar(evento) {
-//   //obtener la coordenadas del eje X y Y de la flecha de mouse
-//   let X = evento.clientX;
-//   let Y = evento.clientY;
+//--------------------------------------------
+function moverPlano(evento) {
+  //obtener la coordenadas del eje X y Y de la flecha de mouse
+  let X = evento.clientX;
+  let Y = evento.clientY;
 
-//   //asignar esos valores y hacer que rote
-//   steveEjeMovimiento.style.transform = `rotateX(-${Y}deg) rotateY(${X}deg)`;
-// }
+  //asignar esos valores y hacer que rote
+  contenedor3d.style.transform = `rotateX(-${Y}deg) rotateY(${X}deg)`;
+}

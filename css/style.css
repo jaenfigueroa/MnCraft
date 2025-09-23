@@ -33,41 +33,76 @@
 
 #body {
   overflow: hidden;
-  /* background: var(--fondo); */
   height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  transform-style: preserve-3d;
-
-  background-color: rgba(255, 255, 0, 0.1);
-
 }
 
-/* #piso {
-  width: 500px;
-  height: 500px;
+/* PIESA PARA REFERENCIAS */
+/* el centro de este cuadrado es el punto X:0 ; Y:0 */
+/* el ancho y alto se modifica automaticamente */
+#contenedor3d {
+  transform-style: preserve-3d;
+  /* es para girar las perspectiva, */
+  transform: rotateX(-25deg) rotateY(-35deg);
+  /* para centrar el contenedor 3D en el viewport */
+  top: 50%;
+  left: 50%;
+  position: absolute;
+
+  background-color: rgba(238, 130, 130, 0.347);
+  border: 1px solid rgb(238, 130, 130);
+
+  border-top: 2px solid red;
+  border-left: 2px solid blue;
+}
+
+/* PIESA PARA REFERENCIAS */
+#piso {
+  width: 160px;
+  height: 160px;
+  transform: rotateX(90deg);
+
+  background: rgba(0, 0, 255, 0.382);
+  border: 1px solid rgb(0, 0, 255);
+}
+
+#cesped {
+  width: 1000px;
+  height: 1000px;
+
+  background: rgba(255, 230, 0, 0.369);
+
+  /* centrar el cesped dentro del piso sin importar el tamaño del piso ni del cesped */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* agregar la textura de césped */
   background-image: url('../assets/texturas/grass_carried.png');
   background-size: 80px 80px;
   image-rendering: pixelated;
-  transform: rotateX(89deg) translateZ(-70px) translateX(8px);
-  position: absolute;
-} */
 
-#contenedor3d {
+  /* TEMPORAL */
+  opacity: 0.7;
+}
+
+#stevePosicionInicialPlano {
   transform-style: preserve-3d;
-  transition: 0.4s;
-  /* es para girar las perspectiva, */
-  transform: rotateX(-25deg) rotateY(-35deg);
-  border: 1px solid violet;
+
+  /* posicionar a STEVE a su posición inicial */
+  position: absolute;
+  top: 0;
+  transform: translateY(-240px);
 }
 
 #steveEjeMovimiento {
   transform-style: preserve-3d;
   transition: 0.4s;
   border: 1px solid red;
+
+  position: absolute;
+  top: 0;
 }
 
 #steveEjeGiro {

@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotateX(89deg) translateZ(-70px) translateX(8px);
+  transform: rotateX(90deg) translateZ(-70px) translateX(8px);
 }
 
 #sombra {
