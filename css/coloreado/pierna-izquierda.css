@@ -119,14 +119,12 @@
     background-repeat: no-repeat;
   }
 
-
-
   .arriba {
     background:
-      linear-gradient(90deg, #402DAC 0 10px, #402DAC 10px 20px, #402DAC 20px 30px, #402DAC 30px 40px),
-      linear-gradient(90deg, #402DAC 0 10px, #402DAC 10px 20px, #402DAC 20px 30px, #402DAC 30px 40px),
-      linear-gradient(90deg, #402DAC 0 10px, #402DAC 10px 20px, #402DAC 20px 30px, #402DAC 30px 40px),
-      linear-gradient(90deg, #402DAC 0 10px, #402DAC 10px 20px, #402DAC 20px 30px, #402DAC 30px 40px);
+      linear-gradient(90deg, #372692 0 10px, #372692 10px 20px, #372692 20px 30px, #372692 30px 40px),
+      linear-gradient(90deg, #372692 0 10px, #372692 10px 20px, #372692 20px 30px, #372692 30px 40px),
+      linear-gradient(90deg, #372692 0 10px, #372692 10px 20px, #372692 20px 30px, #372692 30px 40px),
+      linear-gradient(90deg, #372692 0 10px, #372692 10px 20px, #372692 20px 30px, #372692 30px 40px);
     background-size: 80px 10px;
     background-position: 0px 0px,
       0px 10px,
@@ -134,5 +132,9 @@
       0px 30px,
       0px 40px;
     background-repeat: no-repeat;
+  }
+
+  .abajo {
+    background-color: #4e5051;
   }
 }

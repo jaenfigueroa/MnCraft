@@ -21,8 +21,7 @@ const calcularNuevaUbicacionEnElPlano = (direccion) => {
 };
 
 const moverANuevaUbicacionEnElPlano = () => {
-  main.style.transform = `rotateX(-25deg)
-     rotateY(-35deg)
+  main.style.transform = `rotateX(-10deg) rotateY(-30deg)
      translateX(${ubicacionX}px)
      translateZ(${ubicacionZ}px) 
     `;

@@ -17,14 +17,14 @@
 
   .frente {
     position: absolute;
-    background: rgb(97, 97, 97);
+    /* background: rgb(97, 97, 97); */
     width: 40px;
     height: 120px;
   }
 
   .detras {
     position: absolute;
-    background: rgb(97, 97, 97);
+    /* background: rgb(97, 97, 97); */
     width: 40px;
     height: 120px;
     transform: translateZ(-40px) rotateY(180deg);
@@ -32,7 +32,7 @@
 
   .derecha {
     position: absolute;
-    background: rgb(71, 71, 71);
+    /* background: rgb(71, 71, 71); */
     width: 40px;
     height: 120px;
     transform-origin: center right;
@@ -41,7 +41,7 @@
 
   .izquierda {
     position: absolute;
-    background: rgb(71, 71, 71);
+    /* background: rgb(71, 71, 71); */
     width: 40px;
     height: 120px;
     transform-origin: center left;
@@ -50,7 +50,7 @@
 
   .arriba {
     position: absolute;
-    background: rgb(110, 110, 110);
+    /* background: rgb(110, 110, 110); */
     width: 40px;
     height: 40px;
     transform-origin: center bottom;
@@ -59,7 +59,7 @@
 
   .abajo {
     position: absolute;
-    background: rgb(46, 46, 46);
+    /* background: rgb(46, 46, 46); */
     width: 40px;
     height: 40px;
     transform-origin: center top;

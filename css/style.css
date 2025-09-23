@@ -8,6 +8,15 @@
 @import './posicionamiento/pierna-derecha.css';
 @import './posicionamiento/pierna-izquierda.css';
 
+@import './movimientos/keyframes.css';
+@import './movimientos/agachado.css';
+@import './movimientos/dap.css';
+@import './movimientos/saltando.css';
+
+@import './extras/sombra.css';
+@import './extras/brujula.css';
+@import './extras/caja-movimientos.css';
+
 @import './coloreado/brazo-derecho.css';
 @import './coloreado/brazo-izquierdo.css';
 @import './coloreado/pierna-derecha.css';
@@ -17,15 +26,6 @@
 @import './coloreado/cara-delante.css';
 @import './coloreado/cara-izquierda.css';
 @import './coloreado/cara-derecha.css';
-
-@import './movimientos/keyframes.css';
-@import './movimientos/agachado.css';
-@import './movimientos/dap.css';
-@import './movimientos/saltando.css';
-
-@import './extras/sombra.css';
-@import './extras/brujula.css';
-@import './extras/caja-movimientos.css';
 
 * {
   box-sizing: border-box;
@@ -42,6 +42,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* border-radius: 8px;
+  background: linear-gradient(to bottom,
+      #6bb944 0%,
+      #5c9e3e 25%,
+      #4e8833 50%,
+      #3e6b27 75%,
+      #2e4e1a 100%);
+  background-size: 40px 16px;
+  image-rendering: pixelated;
+  outline: 2px solid #222; */
 }
 
 #main {
@@ -50,7 +61,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotateX(-25deg) rotateY(-35deg);
+  /* transform: rotateX(-25deg) rotateY(-35deg); */
+  transform: rotateX(-10deg) rotateY(-20deg);
 }
 
 #steve-contenedor {

@@ -116,14 +116,14 @@
 
   .abajo {
     background:
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px),
-      linear-gradient(90deg, white 0 10px, white 10px 20px, white 20px 30px, white 30px 40px, white 40px 50px, white 50px 60px, white 60px 70px, white 70px 80px);
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px),
+      linear-gradient(90deg, #9B7259 0 10px, #9B7259 10px 20px, #9B7259 20px 30px, #9B7259 30px 40px, #9B7259 40px 50px, #9B7259 50px 60px, #9B7259 60px 70px, #9B7259 70px 80px);
     background-size: 80px 10px;
     background-position:
       0px 0px,
