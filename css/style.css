@@ -50,11 +50,8 @@
   left: 50%;
   position: absolute;
 
-  background-color: rgba(238, 130, 130, 0.347);
-  border: 1px solid rgb(238, 130, 130);
-
-  border-top: 2px solid red;
-  border-left: 2px solid blue;
+  /* background-color: rgba(238, 130, 130, 0.347);
+  border: 2px solid red; */
 }
 
 /* PIESA PARA REFERENCIAS */
@@ -63,15 +60,14 @@
   height: 160px;
   transform: rotateX(90deg);
 
-  background: rgba(0, 0, 255, 0.382);
-  border: 1px solid rgb(0, 0, 255);
+  /* background: rgba(0, 0, 255, 0.382);
+  border: 2px solid blue; */
 }
 
 #cesped {
   width: 1000px;
   height: 1000px;
 
-  background: rgba(255, 230, 0, 0.369);
 
   /* centrar el cesped dentro del piso sin importar el tamaño del piso ni del cesped */
   position: absolute;
@@ -86,6 +82,8 @@
 
   /* TEMPORAL */
   opacity: 0.7;
+
+  /* border: 1px dashed gray; */
 }
 
 /* ELEMENTO STEVE */
