@@ -1,129 +1,43 @@
 #tronco {
   .frente {
-    background:
-      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #4E3320 20px 30px, #724A2E 30px 40px, #4F3220 40px 50px, #4F3220 50px 60px, #167672 60px 70px, #167672 70px 80px),
-      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #65432B 30px 40px, #65432B 40px 50px, #19908F 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1DABA9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1A9A9A 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB3B2 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px, #1EBCB9 40px 50px, #1DB3B2 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #372992 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #422EAF 50px 60px, #372992 60px 70px, #1A9A9A 70px 80px);
-    background-size: 80px 10px;
-    background-position:
-      0px 0px,
-      0px 10px,
-      0px 20px,
-      0px 30px,
-      0px 40px,
-      0px 50px,
-      0px 60px,
-      0px 70px,
-      0px 80px,
-      0px 90px,
-      0px 100px,
-      0px 110px;
-    background-repeat: no-repeat;
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -200px -200px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
   }
 
   .detras {
-    background:
-      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px, #135F5B 40px 50px, #135F5B 50px 60px, #167672 60px 70px, #167672 70px 80px),
-      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px, #19908F 40px 50px, #19908F 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1DABA9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1EBCB9 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1A9A9A 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px, #1A9694 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB1AF 40px 50px, #1EBCB9 50px 60px, #1DB3B2 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px, #1DB3B2 40px 50px, #1EBCB9 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px, #1EBCB9 40px 50px, #1DB3B2 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #372992 50px 60px, #1EBCB9 60px 70px, #1A9A9A 70px 80px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px, #422EAF 40px 50px, #422EAF 50px 60px, #372992 60px 70px, #1A9A9A 70px 80px);
-    background-size: 80px 10px;
-    background-position:
-      0px 0px,
-      0px 10px,
-      0px 20px,
-      0px 30px,
-      0px 40px,
-      0px 50px,
-      0px 60px,
-      0px 70px,
-      0px 80px,
-      0px 90px,
-      0px 100px,
-      0px 110px;
-    background-repeat: no-repeat;
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -320px -200px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
   }
 
   .derecha {
-    background:
-      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px),
-      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px);
-    background-size: 80px 10px;
-    background-position:
-      0px 0px,
-      0px 10px,
-      0px 20px,
-      0px 30px,
-      0px 40px,
-      0px 50px,
-      0px 60px,
-      0px 70px,
-      0px 80px,
-      0px 90px,
-      0px 100px,
-      0px 110px;
-    background-repeat: no-repeat;
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -160px -200px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
   }
 
   .izquierda {
-    background:
-      linear-gradient(90deg, #156966 0 10px, #135F5B 10px 20px, #135F5B 20px 30px, #135F5B 30px 40px),
-      linear-gradient(90deg, #1A9694 0 10px, #1A9694 10px 20px, #188A87 20px 30px, #19908F 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1BA19F 20px 30px, #1A9997 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9997 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1EBCB9 20px 30px, #1DB1AF 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1EBCB9 0 10px, #1EBCB9 10px 20px, #1EBCB9 20px 30px, #1A9A9A 30px 40px),
-      linear-gradient(90deg, #1A9A9A 0 10px, #1A9A9A 10px 20px, #1A9A9A 20px 30px, #1DB3B2 30px 40px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px),
-      linear-gradient(90deg, #422EAF 0 10px, #422EAF 10px 20px, #422EAF 20px 30px, #422EAF 30px 40px);
-    background-size: 80px 10px;
-    background-position:
-      0px 0px,
-      0px 10px,
-      0px 20px,
-      0px 30px,
-      0px 40px,
-      0px 50px,
-      0px 60px,
-      0px 70px,
-      0px 80px,
-      0px 90px,
-      0px 100px,
-      0px 110px;
-    background-repeat: no-repeat;
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -280px -200px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
+  }
+
+  .arriba {
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -200px -160px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
   }
 
   .abajo {
-    background-color: #372692;
+    background-image: url('/assets/skins/skin1.png');
+    background-position: -280px -160px;
+    background-size: 640px 640px;
+    image-rendering: pixelated;
   }
 }

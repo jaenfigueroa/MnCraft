@@ -62,7 +62,7 @@
   align-items: center;
   justify-content: center;
   /* transform: rotateX(-25deg) rotateY(-35deg); */
-  transform: rotateX(-10deg) rotateY(-20deg);
+  /* transform: rotateX(-10deg) rotateY(-20deg); */
 }
 
 #steve-contenedor {

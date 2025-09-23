@@ -30,7 +30,7 @@
     position: absolute;
     /* background: rgb(71, 71, 71); */
     transform-origin: center right;
-    transform: translateX(-80px) translateZ(-80px) rotateY(90deg);
+    transform: translateX(-80px) translateZ(-0px) rotateY(-90deg);
     width: 80px;
     height: 80px;
   }

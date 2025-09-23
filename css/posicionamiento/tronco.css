@@ -48,16 +48,6 @@
     transform: rotateX(90deg) translateZ(40px);
     width: 80px;
     height: 40px;
-
-    &::after {
-      content: '';
-      width: 60px;
-      height: 12.5px;
-      background-color: var(--piel-1);
-      bottom: 0;
-      left: 10px;
-      position: absolute;
-    }
   }
 
   .abajo {
