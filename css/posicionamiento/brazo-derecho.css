@@ -10,10 +10,6 @@
 
   transition: 0.4s;
 
-  &.moverse {
-    animation: girarBrazoDerecho 0.5s linear infinite alternate;
-  }
-
   .frente {
     position: absolute;
     /* background: rgb(97, 97, 97); */

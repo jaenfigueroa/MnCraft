@@ -11,10 +11,6 @@
 
   transition: 0.4s;
 
-  &.moverse {
-    animation: girarPiernaDerecha 0.5s linear infinite alternate;
-  }
-
   .frente {
     position: absolute;
     /* background: rgb(97, 97, 97); */

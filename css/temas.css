@@ -15,105 +15,41 @@
 }
 
 .temaPersonaje1 {
-  --cafe-0: #8b583e;
-  --cafe-1: #51331a;
-  --cafe-2: #402c1b;
-  --cafe-2: #634429;
-  --cafe-3: #371313;
-
-  --celeste-1: #1fddd9;
-  --celeste-2: #92fdff;
-  --celeste-3: #106fa9;
-
-  --azul-1: #393983;
-  --azul-2: #2e2765;
-  --azul-3: #2f2672;
-  --azul-4: #2d2662;
-
-  --gris-1: #9c9c9c;
-  --gris-2: #4a4a4a;
-  --gris-3: #313131;
-
-  --piel-1: #f0c395;
-  --piel-2: #c6774d;
-  --piel-3: #774d25;
-  --piel-4: #ffb68f;
-
-  --ojos: #654092;
+  --avatar: url('/assets/avatar/skin1.png');
 }
 
 .temaPersonaje2 {
-  --cafe-0: #8b583e;
-  --cafe-1: #51331a;
-  --cafe-2: #402c1b;
-  --cafe-3: #371313;
-
-  --celeste-1: #59c0d5;
-  --celeste-2: #3ca8be;
-  --celeste-3: #369aad;
-
-  --celeste-1: #cb6ced;
-  --celeste-2: #8d52c1;
-  --celeste-3: #8544a5;
-
-  --azul-1: #33a648;
-  --azul-2: #1f7a24;
-  --azul-3: #226932;
-  --azul-4: #1d5728;
-
-  --gris-1: #4c4c4c;
-  --gris-2: #363636;
-  --gris-3: #282828;
-
-  --piel-1: #51fcff;
-  --piel-2: #36cccc;
-  --piel-3: #3ab5bc;
-  --piel-4: #44c8df;
-
-  --ojos: #423095;
+  --avatar: url('/assets/avatar/skin2.png');
 }
 
 .temaPersonaje3 {
-  --cafe-0: #8b8b8b;
-  --cafe-1: #5c5c5c;
-  --cafe-2: #3b3b3b;
-  --cafe-3: #343434;
+  --avatar: url('/assets/avatar/skin3.png');
+}
 
-  --celeste-1: #59c0d5;
-  --celeste-2: #3ca8be;
-  --celeste-3: #369aad;
+.temaPersonaje4 {
+  --avatar: url('/assets/avatar/skin4.png');
+}
 
-  --celeste-1: rgb(234, 69, 102);
-  --celeste-2: rgb(214, 36, 72);
-  --celeste-3: crimson;
+.temaPersonaje5 {
+  --avatar: url('/assets/avatar/skin5.png');
+}
 
-  --azul-1: #a1a1a1;
-  --azul-2: #656565;
-  --azul-3: #444444;
-  --azul-4: #272727;
+.temaPersonaje6 {
+  --avatar: url('/assets/avatar/skin6.png');
+}
 
-  --gris-1: #4c4c4c;
-  --gris-2: #363636;
-  --gris-3: #282828;
+.temaPersonaje7 {
+  --avatar: url('/assets/avatar/skin7.png');
+}
 
-  --gris-1: #4e58de;
-  --gris-2: #212991;
-  --gris-3: #1b2278;
+.temaPersonaje8 {
+  --avatar: url('/assets/avatar/skin8.png');
+}
 
-  --cafe-0: #8b583e;
-  --gris-1: #654226;
-  --gris-2: #3a2819;
-  --gris-3: #371313;
+.temaPersonaje9 {
+  --avatar: url('/assets/avatar/skin9.png');
+}
 
-  --piel-1: #51fcff;
-  --piel-2: #36cccc;
-  --piel-3: #3ab5bc;
-  --piel-4: #44c8df;
-
-  --piel-1: #faff97;
-  --piel-2: #e2e962;
-  --piel-3: #d1d83c;
-  --piel-4: #c7cf2d;
-
-  --ojos: #283fbc;
+.temaPersonaje10 {
+  --avatar: url('/assets/avatar/skin10.png');
 }

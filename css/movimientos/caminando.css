@@ -1,3 +1,27 @@
+#pierna-derecha {
+  &.moverse {
+    animation: girarPiernaDerecha 0.5s linear infinite alternate;
+  }
+}
+
+#pierna-izquierda {
+  &.moverse {
+    animation: girarPiernaIzquierda 0.5s linear infinite alternate;
+  }
+}
+
+#brazo-derecho {
+  &.moverse {
+    animation: girarBrazoDerecho 0.5s linear infinite alternate;
+  }
+}
+
+#brazo-izquierdo {
+  &.moverse {
+    animation: girarBrazoIzquierdo 0.5s linear infinite alternate;
+  }
+}
+
 @keyframes moverCabeza {
   0% {
     transform: translateX(40px) translateZ(40px);
