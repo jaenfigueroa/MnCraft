@@ -1,41 +1,41 @@
 #pierna-izquierda {
   .frente {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -200px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .detras {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -280px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .derecha {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -160px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .izquierda {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -240px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .arriba {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -200px -480px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .abajo {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -240px -480px;
     background-size: 640px 640px;
     image-rendering: pixelated;

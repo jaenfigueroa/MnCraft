@@ -27,6 +27,10 @@
 @import './coloreado/cara-izquierda.css';
 @import './coloreado/cara-derecha.css';
 
+:root {
+  --avatar: url('/assets/skins/skin1.png');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

@@ -1,41 +1,41 @@
 #brazo-izquierdo {
   .frente {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -360px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .detras {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -440px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .derecha {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -320px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .izquierda {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -400px -520px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .arriba {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -360px -480px;
     background-size: 640px 640px;
     image-rendering: pixelated;
   }
 
   .abajo {
-    background-image: url('/assets/skins/skin1.png');
+    background-image: var(--avatar);
     background-position: -400px -480px;
     background-size: 640px 640px;
     image-rendering: pixelated;
